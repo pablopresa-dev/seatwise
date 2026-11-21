@@ -1,0 +1,140 @@
+{
+ "termCode": 20271,
+ "geGroups": [
+  {
+   "groupType": "BeforeFall2015",
+   "requirements": [
+    {
+     "name": "Part One: Foundations",
+     "id": 1,
+     "prefix": "BPT1F",
+     "categories": [
+      {
+       "prefix": "WCT",
+       "name": "Category I: Western Cultures and Traditions",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "GCT",
+       "name": "Category II: Global Cultures and Traditions",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "SCIN",
+       "name": "Category III: Scientific Inquiry",
+       "sortOrder": 1
+      }
+     ],
+     "sortOrder": 1
+    },
+    {
+     "name": "Part Two: Case Studies",
+     "id": 2,
+     "prefix": "BPT2CS",
+     "categories": [
+      {
+       "prefix": "SCIS",
+       "name": "Category IV: Science and Its Significance",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "ARLT",
+       "name": "Category V: Arts and Letters",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "SI",
+       "name": "Category VI: Social Issues",
+       "sortOrder": 1
+      }
+     ],
+     "sortOrder": 2
+    },
+    {
+     "name": "Other",
+     "id": 3,
+     "prefix": "BOTHER",
+     "categories": [
+      {
+       "prefix": "DIV",
+       "name": "Diversity Courses",
+       "sortOrder": 1
+      }
+     ],
+     "sortOrder": 3
+    }
+   ]
+  },
+  {
+   "groupType": "Fall2015OrLater",
+   "requirements": [
+    {
+     "name": "Core Literacies",
+     "id": 4,
+     "prefix": "ACORELIT",
+     "categories": [
+      {
+       "prefix": "ARTS",
+       "name": "Category A: The Arts",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "HINQ",
+       "name": "Category B: Humanistic Inquiry",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "SANA",
+       "name": "Category C: Social Analysis",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "LIFE",
+       "name": "Category D: Life Sciences",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "PSC",
+       "name": "Category E: Physical Sciences",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "QREA",
+       "name": "Category F: Quantitative Reasoning",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "DCL",
+       "name": "Dornsife Core Literacy",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "GESM",
+       "name": "General Education Seminar",
+       "sortOrder": 1
+      }
+     ],
+     "sortOrder": 1
+    },
+    {
+     "name": "Global Perspectives",
+     "id": 5,
+     "prefix": "AGLOPERS",
+     "categories": [
+      {
+       "prefix": "GPG",
+       "name": "Category G: Global Perspectives I",
+       "sortOrder": 1
+      },
+      {
+       "prefix": "GPH",
+       "name": "Category H: Global Perspectives II",
+       "sortOrder": 1
+      }
+     ],
+     "sortOrder": 2
+    }
+   ]
+  }
+ ]
+}

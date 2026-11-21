@@ -1,0 +1,6 @@
+Barlow and Barlow Condensed
+Copyright 2017 The Barlow Project Authors (https://github.com/jpt/barlow)
+
+These fonts are licensed under the SIL Open Font License, Version 1.1.
+Full license text: https://openfontlicense.org/open-font-license-official-text/
+Source: Google Fonts (https://fonts.google.com/specimen/Barlow), WOFF2 subsets (latin, latin-ext).

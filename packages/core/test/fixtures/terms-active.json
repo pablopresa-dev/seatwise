@@ -1,0 +1,50 @@
+[
+ {
+  "seasonName": "Spring",
+  "status": "Active",
+  "dateActive": "2026-10-05T07:00:00Z",
+  "dateCreated": "2026-10-05T15:11:40.0433333Z",
+  "dateModified": "2026-10-30T17:15:47.9520356Z",
+  "term": {
+   "value": 20271,
+   "year": 2027,
+   "term": 1,
+   "season": "Spring"
+  },
+  "termCode": 20271,
+  "season": "Spring",
+  "year": 2027
+ },
+ {
+  "seasonName": "Fall",
+  "status": "Active",
+  "dateActive": "2026-03-02T08:00:00Z",
+  "dateCreated": "2026-03-02T07:18:01.2Z",
+  "dateModified": "2026-09-16T21:13:49.0385483Z",
+  "term": {
+   "value": 20263,
+   "year": 2026,
+   "term": 3,
+   "season": "Fall"
+  },
+  "termCode": 20263,
+  "season": "Fall",
+  "year": 2026
+ },
+ {
+  "seasonName": "Summer",
+  "status": "Active",
+  "dateActive": "2026-02-09T08:00:00Z",
+  "dateCreated": "2026-02-02T15:27:41.7466667Z",
+  "dateModified": "2026-05-28T21:12:49.0086065Z",
+  "term": {
+   "value": 20262,
+   "year": 2026,
+   "term": 2,
+   "season": "Summer"
+  },
+  "termCode": 20262,
+  "season": "Summer",
+  "year": 2026
+ }
+]

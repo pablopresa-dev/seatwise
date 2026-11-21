@@ -1,0 +1,111 @@
+---
+// The example Spring 2027 week, drawn as a timetable on the hero field.
+// Illustrative data: it matches the example conversation further down the page.
+
+const DAY_START = 8 * 60; // 8:00
+const DAY_END = 17 * 60; // 17:00
+const SLOT = 10; // minutes per grid row
+
+const days = [
+  { short: "M", long: "Monday" },
+  { short: "T", long: "Tuesday" },
+  { short: "W", long: "Wednesday" },
+  { short: "T", long: "Thursday" },
+  { short: "F", long: "Friday" },
+];
+
+type Tone = "yellow" | "aqua" | "vermilion" | "pink";
+interface Block {
+  code: string;
+  kind: string;
+  days: number[];
+  start: string;
+  end: string;
+  tone: Tone;
+}
+interface Ghost {
+  label: string;
+  days: number[];
+  start: string;
+  end: string;
+}
+
+const blocks: Block[] = [
+  { code: "WRIT 150", kind: "Lecture", days: [0, 2], start: "10:00", end: "11:20", tone: "yellow" },
+  { code: "CSCI 353", kind: "Lecture", days: [0, 2], start: "12:00", end: "13:50", tone: "aqua" },
+  { code: "CSCI 353", kind: "Discussion", days: [3], start: "10:00", end: "10:50", tone: "aqua" },
+  { code: "CSCI 270", kind: "Lecture", days: [1, 3], start: "12:30", end: "13:50", tone: "vermilion" },
+  { code: "CSCI 270", kind: "Discussion", days: [0], start: "15:00", end: "15:50", tone: "vermilion" },
+  { code: "ARLT 100g", kind: "GE-B", days: [1, 3], start: "15:30", end: "16:50", tone: "pink" },
+];
+
+// Sections the planner considered and rejected, drawn dashed.
+const ghosts: Ghost[] = [
+  { label: "8am section skipped", days: [1, 3], start: "8:00", end: "9:20" },
+  { label: "Skipped", days: [4], start: "10:00", end: "10:50" },
+];
+
+const toMin = (t: string) => {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+};
+const row = (t: string) => (toMin(t) - DAY_START) / SLOT + 2; // +1 for 1-based, +1 for the header row
+const fmt = (t: string) => {
+  const [h, m] = t.split(":").map(Number);
+  const hh = h > 12 ? h - 12 : h;
+  return `${hh}:${String(m).padStart(2, "0")}`;
+};
+const hours = Array.from({ length: (DAY_END - DAY_START) / 60 }, (_, i) => 8 + i);
+const totalRows = (DAY_END - DAY_START) / SLOT;
+---
+
+<figure class="week" aria-labelledby="week-caption">
+  <div class="week-grid" style={`--rows:${totalRows}`} role="img" aria-label="Example week: WRIT 150 Monday and Wednesday 10 to 11:20; CSCI 353 lecture Monday and Wednesday 12 to 1:50 and discussion Thursday 10 to 10:50; CSCI 270 lecture Tuesday and Thursday 12:30 to 1:50 and discussion Monday 3 to 3:50; ARLT 100g Tuesday and Thursday 3:30 to 4:50. Nothing before 10am, nothing on Friday.">
+    {days.map((d, i) => (
+      <span class="week-day" style={`grid-column:${i + 2}`} aria-hidden="true">
+        {d.short}
+      </span>
+    ))}
+    {hours.map((h) => (
+      <span class="week-hour" style={`grid-row:${row(`${h}:00`)} / span 6`} aria-hidden="true">
+        {h > 12 ? h - 12 : h}
+        <small>{h >= 12 ? "pm" : "am"}</small>
+      </span>
+    ))}
+    {hours.map((h) => (
+      <span class="week-line" style={`grid-row:${row(`${h}:00`)}`} aria-hidden="true" />
+    ))}
+    <span class="week-off" style={`grid-row:2 / span ${totalRows}`} aria-hidden="true">
+      <span>Fridays off</span>
+    </span>
+    {ghosts.flatMap((g) =>
+      g.days.map((d) => (
+        <span
+          class="week-ghost"
+          style={`grid-column:${d + 2};grid-row:${row(g.start)} / ${row(g.end)}`}
+          aria-hidden="true"
+        >
+          <span>{g.label}</span>
+        </span>
+      )),
+    )}
+    {blocks.flatMap((b) =>
+      b.days.map((d) => (
+        <span
+          class:list={["week-block", `tone-${b.tone}`, { "is-short": toMin(b.end) - toMin(b.start) < 60 }]}
+          style={`grid-column:${d + 2};grid-row:${row(b.start)} / ${row(b.end)}`}
+          aria-hidden="true"
+        >
+          <b translate="no">{b.code}</b>
+          <span class="week-time">
+            {fmt(b.start)}–{fmt(b.end)}
+          </span>
+          <span class="week-kind">{b.kind}</span>
+        </span>
+      )),
+    )}
+  </div>
+  <figcaption id="week-caption" class="week-caption">
+    An example Spring 2027 week from the conversation below: 16 units, nothing before 10am, Fridays free.
+  </figcaption>
+</figure>

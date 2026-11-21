@@ -1,0 +1,20 @@
+{
+  "name": "@seatwise/mcp",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "bin": { "seatwise-mcp": "./dist/stdio.js" },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "dev": "tsx watch src/http.ts",
+    "start": "node dist/http.js",
+    "stdio": "tsx src/stdio.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@seatwise/core": "0.1.0",
+    "zod": "^3.25.76"
+  }
+}

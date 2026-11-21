@@ -1,0 +1,807 @@
+{
+ "geRequirementPrefix": "ACORELIT",
+ "geCategoryPrefix": "ARTS",
+ "termCode": 20271,
+ "courses": [
+  {
+   "courseId": 61576,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "307",
+   "sequence": null,
+   "suffix": "g",
+   "description": "Explores punk, hip hop, and DIY countercultures as transformative  forces in social activism, media innovation, creative  entrepreneurship, and equitable, alternative cultural and artistic  practices.",
+   "fullCourseName": "ACAD 307",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "30",
+   "scheduledCourseCode": {
+    "prefix": "ACAD",
+    "number": "307",
+    "suffix": "",
+    "courseHyphen": "ACAD-307",
+    "courseSpace": "ACAD 307",
+    "courseSmashed": "ACAD307"
+   },
+   "publishedCourseCode": {
+    "prefix": "ACAD",
+    "number": "307",
+    "suffix": "",
+    "courseHyphen": "ACAD-307",
+    "courseSpace": "ACAD 307",
+    "courseSmashed": "ACAD307"
+   },
+   "matchedCourseCode": {
+    "prefix": "ACAD",
+    "number": "307",
+    "suffix": "",
+    "courseHyphen": "ACAD-307",
+    "courseSpace": "ACAD 307",
+    "courseSmashed": "ACAD307"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "10252",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 774185,
+     "courseId": 61576,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "17:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 93,
+     "registeredSeats": 21,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Keanan",
+       "lastName": "Duffty"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/ACAD/307/10252",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 72,
+   "sectionSeatCount": 93,
+   "termCode": 20271,
+   "prefix": "ACAD",
+   "name": "Punk, Counterculture, and the Do-It-Yourself (DIY) Ethos",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 50392,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "121",
+   "sequence": null,
+   "suffix": "gp",
+   "description": "European art and its legacy in the Americas. Painting, sculpture, architecture and other visual media considered in relation to social and cultural history.",
+   "fullCourseName": "AHIS 121",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "30",
+   "scheduledCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "publishedCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "matchedCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "11818",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 761117,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": "Register for lec & 1 dis",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "11:00",
+       "endTime": "12:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 100,
+     "registeredSeats": 40,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Amy",
+       "lastName": "Ogata"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11818",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11819",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 761123,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 10,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Ruys De Perez"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11819",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11821",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760949,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 3,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Cora",
+       "lastName": "Sperling"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11821",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11820",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760945,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 22,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Ruys De Perez"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11820",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11822",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760953,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 5,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Cora",
+       "lastName": "Sperling"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11822",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 60,
+   "sectionSeatCount": 100,
+   "termCode": 20271,
+   "prefix": "AHIS",
+   "name": "Foundations of Western Art: Renaissance to Contemporary",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 10813,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "125",
+   "sequence": null,
+   "suffix": "gp",
+   "description": "An introduction to the major art forms and monuments of religious art in India, Southeast Asia, China and Japan from prehistory to1300. ",
+   "fullCourseName": "AHIS 125",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "30",
+   "scheduledCourseCode": {
+    "prefix": "AHIS",
+    "number": "125",
+    "suffix": "",
+    "courseHyphen": "AHIS-125",
+    "courseSpace": "AHIS 125",
+    "courseSmashed": "AHIS125"
+   },
+   "publishedCourseCode": {
+    "prefix": "AHIS",
+    "number": "125",
+    "suffix": "",
+    "courseHyphen": "AHIS-125",
+    "courseSpace": "AHIS 125",
+    "courseSmashed": "AHIS125"
+   },
+   "matchedCourseCode": {
+    "prefix": "AHIS",
+    "number": "125",
+    "suffix": "",
+    "courseHyphen": "AHIS-125",
+    "courseSpace": "AHIS 125",
+    "courseSmashed": "AHIS125"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "11838",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 773562,
+     "courseId": 10813,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "12:30",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 50,
+     "registeredSeats": 13,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Sonya",
+       "lastName": "Lee"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/125/11838",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11839",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 773563,
+     "courseId": 10813,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 5,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Sukyung",
+       "lastName": "Choi"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/125/11839",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11840",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 773564,
+     "courseId": 10813,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 8,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Sukyung",
+       "lastName": "Choi"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/125/11840",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 37,
+   "sectionSeatCount": 50,
+   "termCode": 20271,
+   "prefix": "AHIS",
+   "name": "Arts of Asia: Antiquity to 1300",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 58148,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "205",
+   "sequence": null,
+   "suffix": "g",
+   "description": "An exploration of the phenomena of stardom and celebrity across media, entertainment, sports and social influence, ranging from early modern theatre to current day.",
+   "fullCourseName": "THTR 205",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "30",
+   "scheduledCourseCode": {
+    "prefix": "THTR",
+    "number": "205",
+    "suffix": "",
+    "courseHyphen": "THTR-205",
+    "courseSpace": "THTR 205",
+    "courseSmashed": "THTR205"
+   },
+   "publishedCourseCode": {
+    "prefix": "THTR",
+    "number": "205",
+    "suffix": "",
+    "courseHyphen": "THTR-205",
+    "courseSpace": "THTR 205",
+    "courseSmashed": "THTR205"
+   },
+   "matchedCourseCode": {
+    "prefix": "THTR",
+    "number": "205",
+    "suffix": "",
+    "courseHyphen": "THTR-205",
+    "courseSpace": "THTR 205",
+    "courseSmashed": "THTR205"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "62617",
+     "linkCode": "T",
+     "linkCodeForSort": "T",
+     "rnrSessionId": 38124,
+     "peSectionId": 770072,
+     "courseId": 58148,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Explore success, fame, and celebrity in business, media and entertainment, sports, public service, science, and engineering, and chart your pathway to contentment and STARDOM in your pursuits and careers.",
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 90,
+     "registeredSeats": 0,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/THTR/205/62617",
+     "isCancelled": true,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 90,
+   "sectionSeatCount": 90,
+   "termCode": 20271,
+   "prefix": "THTR",
+   "name": "Stardom: Creation, Management and Culture Impact",
+   "sortOrder": 0
+  }
+ ]
+}

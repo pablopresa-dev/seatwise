@@ -1,0 +1,39 @@
+---
+import Icon from "./Icon.astro";
+import { MCP_URL } from "../config";
+
+interface Props {
+  id: string;
+  label: string;
+  class?: string;
+}
+const { id, label, class: className } = Astro.props;
+---
+
+<div class:list={["sign", className]} data-copy-root>
+  <label class="sign-label" for={id}>{label}</label>
+  <div class="sign-row">
+    <input
+      class="sign-url"
+      id={id}
+      type="text"
+      value={MCP_URL}
+      readonly
+      spellcheck="false"
+      autocomplete="off"
+      translate="no"
+      data-copy-source
+    />
+    <button class="sign-copy" type="button" data-copy-button aria-describedby={`${id}-status`}>
+      <span class="sign-copy-face" data-face="idle">
+        <Icon name="copy" />
+        <span>Copy</span>
+      </span>
+      <span class="sign-copy-face" data-face="done" aria-hidden="true">
+        <Icon name="check" />
+        <span>Copied</span>
+      </span>
+    </button>
+  </div>
+  <p class="sign-status" id={`${id}-status`} role="status" aria-live="polite" data-copy-status></p>
+</div>

@@ -1,0 +1,37 @@
+---
+// Small authored icon set: 24px grid, 2px stroke, round joins.
+interface Props {
+  name: "copy" | "check" | "external";
+  class?: string;
+}
+const { name, class: className } = Astro.props;
+---
+
+<svg
+  class:list={["icon", className]}
+  viewBox="0 0 24 24"
+  width="20"
+  height="20"
+  fill="none"
+  stroke="currentColor"
+  stroke-width="2"
+  stroke-linecap="round"
+  stroke-linejoin="round"
+  aria-hidden="true"
+  focusable="false"
+>
+  {name === "copy" && (
+    <>
+      <rect x="8" y="8" width="12" height="12" rx="2" />
+      <path d="M16 8V6a2 2 0 0 0-2-2H6a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h2" />
+    </>
+  )}
+  {name === "check" && <path d="M5 12.5l4.5 4.5L19 7.5" />}
+  {name === "external" && (
+    <>
+      <path d="M14 5h5v5" />
+      <path d="M19 5l-8 8" />
+      <path d="M18 14v4a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h4" />
+    </>
+  )}
+</svg>

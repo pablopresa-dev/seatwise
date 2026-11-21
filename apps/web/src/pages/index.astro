@@ -1,0 +1,358 @@
+---
+import "../styles/global.css";
+import Icon from "../components/Icon.astro";
+import UrlSign from "../components/UrlSign.astro";
+import Week from "../components/Week.astro";
+import Seats from "../components/Seats.astro";
+import { GITHUB_URL, SITE_DESCRIPTION, SITE_NAME } from "../config";
+
+const title = "Seatwise: plan your USC semester in Claude or ChatGPT";
+const canonical = new URL("/", Astro.site).toString();
+const ogImage = new URL("/og.png", Astro.site).toString();
+
+const capabilities = [
+  {
+    shape: "circle",
+    name: "Understands what you’re after",
+    body: "Say it the way you’d say it to a friend. Your AI turns goals and half-formed ideas into a list of real courses.",
+    ask: "Something with data, not too heavy, that counts for my minor.",
+  },
+  {
+    shape: "triangle",
+    name: "Finds classes you can actually take",
+    body: "Major and school restrictions, prerequisites and D-clearance are checked against each section before anything lands in your plan.",
+    ask: "Can a visiting student take CSCI 353?",
+  },
+  {
+    shape: "square",
+    name: "Builds weeks with no conflicts",
+    body: "Your rules hold: no 8am, Fridays off, a unit cap. If something can’t fit, it tells you why instead of quietly dropping it.",
+    ask: "Same classes, but keep Fridays free and stay under 16 units.",
+  },
+  {
+    shape: "half",
+    name: "Knows what you’ve already done",
+    body: "Paste or upload your STARS degree progress report or transcript in the chat, and your AI plans around what you’ve completed.",
+    ask: "Here’s my STARS report. What’s left for my major?",
+  },
+  {
+    shape: "diamond",
+    name: "Checks seats right now",
+    body: "Open seats for every section, read from the public Schedule of Classes when you ask.",
+    ask: "Which WRIT 150 sections still have room?",
+  },
+];
+
+const steps = {
+  claude: [
+    "Open Claude and go to Settings, then Connectors.",
+    "Choose Add custom connector.",
+    "Name it Seatwise and paste the connector URL.",
+    "Start a new chat and ask about your semester.",
+  ],
+  chatgpt: [
+    "In ChatGPT, open Settings, then Apps & Connectors.",
+    "Turn on developer mode (it’s under the advanced settings).",
+    "Create a connector named Seatwise and paste the connector URL.",
+    "In a new chat, choose Seatwise from the tools menu and ask away.",
+  ],
+};
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={SITE_DESCRIPTION} />
+    <link rel="canonical" href={canonical} />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <meta name="color-scheme" content="light dark" />
+    <meta name="theme-color" content="#D6006F" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#C00064" media="(prefers-color-scheme: dark)" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE_NAME} />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={SITE_DESCRIPTION} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:image" content={ogImage} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Seatwise: a colorful example class schedule with the line “Ask your AI for a schedule you can actually register for.”" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <link rel="preload" href="/fonts/barlow-condensed-800-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <link rel="preload" href="/fonts/barlow-400-latin.woff2" as="font" type="font/woff2" crossorigin />
+    <script is:inline>
+      document.documentElement.classList.add("js");
+      // Review aid: ?theme=light or ?theme=dark pins a theme; otherwise the system setting wins.
+      var t = new URLSearchParams(location.search).get("theme");
+      if (t === "light" || t === "dark") document.documentElement.dataset.theme = t;
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="hero" id="top">
+      <div class="hero-stripes" aria-hidden="true">
+        <span></span><span></span><span></span><span></span><span></span>
+      </div>
+
+      <nav class="nav wrap" aria-label="Main">
+        <a class="brand" href="#top" aria-label="Seatwise, back to top">
+          <img src="/logo-ink.svg" alt="" width="36" height="36" />
+          <span translate="no">Seatwise</span>
+        </a>
+        <ul class="nav-links" role="list">
+          <li class="nav-wide"><a href="#how">How it works</a></li>
+          <li class="nav-wide"><a href="#privacy">Privacy</a></li>
+          <li><a href={GITHUB_URL} rel="noopener">GitHub</a></li>
+          <li><a class="nav-cta" href="#connect">Connect</a></li>
+        </ul>
+      </nav>
+
+      <div class="hero-body wrap">
+        <div class="hero-copy">
+          <h1 class="hero-title">Ask your AI for a schedule you can actually register&nbsp;for.</h1>
+          <p class="hero-lede">
+            Seatwise connects Claude or ChatGPT to USC’s public Schedule of Classes. Your AI checks restrictions,
+            prerequisites, D-clearance and open seats, then plans a week with no time conflicts. Free and open source.
+          </p>
+          <UrlSign id="url-hero" label="Paste this into Claude or ChatGPT" class="hero-sign" />
+          <p class="hero-more"><a href="#connect">Setup steps for Claude and ChatGPT</a></p>
+        </div>
+        <Week />
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="convo" id="how" aria-labelledby="how-title">
+        <div class="wrap">
+          <div class="section-head">
+            <h2 id="how-title">It works inside the chat you already use</h2>
+            <p>
+              Add Seatwise to Claude or ChatGPT once, and your AI can look things up in the Schedule of Classes while
+              it talks with you. The AI does the reasoning. Seatwise keeps the facts straight.
+            </p>
+          </div>
+
+          <ol class="chat" data-chat aria-label="Example conversation">
+            <li class="chat-row chat-top" style="--i:0" aria-hidden="true">
+              <div class="msg msg-bar">
+                <span class="bar-title">New chat</span>
+                <span class="bar-status"><span class="dot"></span>Seatwise connected</span>
+              </div>
+            </li>
+
+            <li class="chat-row" style="--i:1">
+              <div class="msg msg-user">
+                <p class="who visually-hidden">Student:</p>
+                <div class="bubble">
+                  <p>
+                    Hi! I’m an exchange student from Madrid, at USC for Spring 2027 only. I study computer engineering
+                    at home. I’d like CSCI 270, CSCI 353, a writing class and one GE, plus a Marshall marketing class if
+                    possible. No 8am, Fridays free, 16 units max.
+                  </p>
+                  <span class="file"><span class="file-ext">PDF</span>transcript-UPM.pdf</span>
+                </div>
+              </div>
+              <p class="tag tone-aqua"><span class="mark mark-half" aria-hidden="true"></span>Reads a transcript or STARS report you share in the chat</p>
+            </li>
+
+            <li class="chat-row" style="--i:2">
+              <div class="msg msg-tool">
+                <p class="who visually-hidden">Assistant activity:</p>
+                <p class="tool"><span class="tool-mark" aria-hidden="true"></span>Used Seatwise: searched Spring 2027 sections, checked restrictions, prerequisites and seats</p>
+              </div>
+              <p class="tag tone-sky"><span class="mark mark-diamond" aria-hidden="true"></span>Data from the public Schedule of Classes, fetched when you ask</p>
+            </li>
+
+            <li class="chat-row" style="--i:3">
+              <div class="msg msg-ai">
+                <p class="who visually-hidden">Assistant:</p>
+                <p>Here’s what I found for Spring 2027.</p>
+                <p>
+                  <strong translate="no">BUAD 307</strong> (Marketing Fundamentals) is restricted to Marshall majors, so I left it out.
+                </p>
+              </div>
+              <p class="tag tone-magenta"><span class="mark mark-triangle" aria-hidden="true"></span>Major restriction caught before it reaches your plan</p>
+            </li>
+
+            <li class="chat-row" style="--i:4">
+              <div class="msg msg-ai">
+                <p>
+                  <strong translate="no">CSCI 353</strong> needs D-clearance for students outside the CS major. Request it from Viterbi
+                  CS advising soon: add/drop for Spring 2027 is in mid-January, and these sections fill.
+                </p>
+              </div>
+              <p class="tag tone-yellow"><span class="mark mark-triangle" aria-hidden="true"></span>D-clearance flagged, with time to ask for it</p>
+            </li>
+
+            <li class="chat-row" style="--i:5">
+              <div class="msg msg-ai">
+                <p>
+                  Your transcript lists Data Structures and Discrete Mathematics, which look equivalent to <strong translate="no">CSCI 270</strong>’s prerequisites (CSCI 104 and CSCI 170). The department makes the final
+                  call, so mention them when you ask.
+                </p>
+              </div>
+              <p class="tag tone-aqua"><span class="mark mark-half" aria-hidden="true"></span>Prerequisites compared with what you’ve completed</p>
+            </li>
+
+            <li class="chat-row" style="--i:6">
+              <div class="msg msg-ai">
+                <p>This plan has no conflicts:</p>
+                <div class="plan-scroll" role="region" aria-label="Proposed schedule" tabindex="0">
+                  <table class="plan" translate="no">
+                    <thead>
+                      <tr><th scope="col">Course</th><th scope="col">Section</th><th scope="col">When</th><th scope="col">Seats</th></tr>
+                    </thead>
+                    <tbody>
+                      <tr><th scope="row">WRIT 150</th><td>63765</td><td>MW 10:00–11:20</td><td><Seats open={6} total={19} /></td></tr>
+                      <tr><th scope="row">CSCI 353</th><td>30120 + 30126</td><td>MW 12:00–1:50, Th 10:00</td><td><Seats open={14} total={60} /></td></tr>
+                      <tr><th scope="row">CSCI 270</th><td>30044 + 30049</td><td>TTh 12:30–1:50, M 3:00</td><td><Seats open={22} total={120} /></td></tr>
+                      <tr><th scope="row">ARLT 100g</th><td>35310</td><td>TTh 3:30–4:50</td><td><Seats open={9} total={25} /></td></tr>
+                    </tbody>
+                  </table>
+                </div>
+                <p>16 units. Nothing before 10am, nothing on Fridays. The 8am WRIT 150 sections were skipped.</p>
+              </div>
+              <p class="tag tone-vermilion"><span class="mark mark-square" aria-hidden="true"></span>Your rules applied: no 8am, Fridays off, 16 units</p>
+            </li>
+
+            <li class="chat-row" style="--i:7">
+              <div class="msg msg-ai">
+                <p>The 10:00 section of <strong translate="no">ARLT 100g</strong> (35305) is full:</p>
+                <p class="seat-line" translate="no"><Seats open={0} total={25} /></p>
+                <p>So I used the 3:30 section instead.</p>
+              </div>
+              <p class="tag tone-pink"><span class="mark mark-ring" aria-hidden="true"></span><span>Full section caught, open section picked instead</span></p>
+            </li>
+
+            <li class="chat-row chat-end" style="--i:8">
+              <div class="msg msg-ai">
+                <p>
+                  Seat counts are from a few minutes ago. Register in WebReg, and check there if a section looks close
+                  to full.
+                </p>
+              </div>
+              <p class="tag tone-sky"><span class="mark mark-diamond" aria-hidden="true"></span>Live seats, with WebReg as the final word</p>
+            </li>
+          </ol>
+          <p class="convo-note">Example conversation. Section numbers and seat counts are illustrative.</p>
+        </div>
+      </section>
+
+      <section class="board" aria-labelledby="board-title">
+        <div class="wrap">
+          <h2 id="board-title">What your AI can do with Seatwise</h2>
+          <ul class="directory" role="list">
+            {capabilities.map((c) => (
+              <li class="dir-row">
+                <span class={`mark mark-lg mark-${c.shape}`} aria-hidden="true" />
+                <h3 class="dir-name">{c.name}</h3>
+                <p class="dir-body">{c.body}</p>
+                <p class="dir-ask"><span class="visually-hidden">Try asking: </span>“{c.ask}”</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <section class="connect" id="connect" aria-labelledby="connect-title">
+        <div class="wrap connect-grid">
+          <div class="connect-intro">
+            <h2 id="connect-title">Connect it in about a minute</h2>
+            <p>Seatwise is a connector (an MCP server). You add it to your AI once, then just chat.</p>
+            <UrlSign id="url-connect" label="Connector URL" class="connect-sign" />
+          </div>
+
+          <div class="tabs" data-tabs>
+            <div class="tablist" role="tablist" aria-label="Choose your assistant">
+              <button type="button" role="tab" id="tab-claude" aria-controls="panel-claude" aria-selected="true">Claude</button>
+              <button type="button" role="tab" id="tab-chatgpt" aria-controls="panel-chatgpt" aria-selected="false" tabindex="-1">ChatGPT</button>
+              <button type="button" role="tab" id="tab-dev" aria-controls="panel-dev" aria-selected="false" tabindex="-1">On your machine</button>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" tabindex="0">
+              <h3 class="panel-title">Claude</h3>
+              <ol class="steps">
+                {steps.claude.map((s) => <li>{s}</li>)}
+              </ol>
+              <p class="panel-note">Custom connectors depend on your Claude plan. Menu names can shift as Claude updates.</p>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" tabindex="0">
+              <h3 class="panel-title">ChatGPT</h3>
+              <ol class="steps">
+                {steps.chatgpt.map((s) => <li>{s}</li>)}
+              </ol>
+              <p class="panel-note">Developer mode and custom connectors depend on your ChatGPT plan, and OpenAI renames these menus often.</p>
+            </div>
+
+            <div class="panel" role="tabpanel" id="panel-dev" aria-labelledby="tab-dev" tabindex="0">
+              <h3 class="panel-title">On your machine</h3>
+              <p>
+                Developers can run Seatwise locally and connect over stdio from Claude Code or Claude Desktop. No hosted
+                server involved.
+              </p>
+              <p>
+                <a class="text-link" href={GITHUB_URL} rel="noopener">
+                  Setup instructions on GitHub<Icon name="external" class="icon-inline" />
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="rules" id="privacy" aria-labelledby="rules-title">
+        <div class="band-stripes" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span></div>
+        <div class="wrap">
+          <h2 id="rules-title">Your login and your records stay with you</h2>
+          <ul class="rule-list" role="list">
+            <li>
+              <h3>No USC login</h3>
+              <p>Seatwise never asks for your NetID or password. It has no reason to sign in as you.</p>
+            </li>
+            <li>
+              <h3>Public data only</h3>
+              <p>Everything comes from USC’s public Schedule of Classes, the same listings anyone can browse.</p>
+            </li>
+            <li>
+              <h3>Doesn’t store your records</h3>
+              <p>A STARS report or transcript you share is read in your chat. Seatwise doesn’t keep it.</p>
+            </li>
+            <li>
+              <h3>Open source</h3>
+              <p>The code is on <a href={GITHUB_URL} rel="noopener">GitHub</a> under the MIT license.</p>
+            </li>
+          </ul>
+          <p class="rules-limits">
+            <strong>Good to know:</strong> seat counts can lag WebReg slightly, and you still register in WebReg.
+            Seatwise helps you plan; it doesn’t enroll you.
+          </p>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="footer">
+      <div class="wrap footer-grid">
+        <a class="brand" href="#top" aria-label="Seatwise, back to top">
+          <img src="/logo.svg" alt="" width="32" height="32" loading="lazy" />
+          <span translate="no">Seatwise</span>
+        </a>
+        <p>
+          <a href={GITHUB_URL} rel="noopener">Source on GitHub</a>. Course data from the public USC Schedule of Classes.
+        </p>
+        <p class="footer-legal">Not affiliated with or endorsed by the University of Southern California.</p>
+      </div>
+    </footer>
+
+    <script>
+      import "../scripts/main.ts";
+    </script>
+  </body>
+</html>
