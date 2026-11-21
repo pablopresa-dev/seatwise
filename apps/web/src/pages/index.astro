@@ -43,20 +43,56 @@ const capabilities = [
   },
 ];
 
-const steps = {
+// Setup steps. [[Label]] marks a button or menu name exactly as the app shows it.
+// Sources: Claude and OpenAI help centers, checked 2026-11-21. Re-check after each app redesign.
+type Step = { do: string; detail?: string };
+
+const link = (href: string, text: string) => `<a class="text-link" href="${href}" rel="noopener">${text}</a>`;
+
+const steps: Record<"claude" | "chatgpt", Step[]> = {
   claude: [
-    "Open Claude and go to Settings, then Connectors.",
-    "Choose Add custom connector.",
-    "Name it Seatwise and paste the connector URL.",
-    "Start a new chat and ask about your semester.",
+    {
+      do: "In Claude on the web or the desktop app, open [[Customize]], then [[Connectors]].",
+      detail: `Shortcut: ${link("https://claude.ai/customize/connectors", "claude.ai/customize/connectors")}`,
+    },
+    {
+      do: "Click [[+ Add]], then [[Add custom connector]].",
+      detail: "If you see [[Custom]] instead, hover it and pick [[Web]].",
+    },
+    {
+      do: "Type Seatwise as the name, paste the connector URL and click [[Continue]].",
+      detail: "Copy the URL from the box on this page. It ends in /mcp.",
+    },
+    {
+      do: "Under Authentication, pick [[No sign in]], leave Request headers empty and click [[Add]].",
+      detail: "Seatwise needs no account and no password.",
+    },
+    {
+      do: "Start a new chat, click [[+]] at the bottom left, open [[Connectors]] and switch Seatwise on.",
+      detail: "Then ask: “What CSCI classes can I take in Spring 2027?” Switch it on again in each new chat.",
+    },
   ],
   chatgpt: [
-    "In ChatGPT, open Settings, then Apps & Connectors.",
-    "Turn on developer mode (it’s under the advanced settings).",
-    "Create a connector named Seatwise and paste the connector URL.",
-    "In a new chat, choose Seatwise from the tools menu and ask away.",
+    {
+      do: "On chatgpt.com in a browser, open [[Plugins]].",
+      detail: `Shortcut: ${link("https://chatgpt.com/plugins", "chatgpt.com/plugins")}. The phone app can’t add connectors.`,
+    },
+    { do: "Click the [[+]] button, then [[Add custom MCP server]]." },
+    {
+      do: "Type Seatwise as the name and paste the connector URL under [[Connection]].",
+      detail: "Copy the URL from the box on this page. It ends in /mcp.",
+    },
+    {
+      do: "Choose no authentication, tick [[I understand and want to continue]] and click [[Create as a plugin]].",
+    },
+    {
+      do: "Start a new chat, type @, pick Seatwise and ask your question.",
+      detail: "Pick it again when a follow-up needs fresh data.",
+    },
   ],
 };
+
+const ui = (s: string) => s.replace(/\[\[(.+?)\]\]/g, '<b class="ui">$1</b>');
 ---
 
 <!doctype html>
@@ -264,7 +300,10 @@ const steps = {
         <div class="wrap connect-grid">
           <div class="connect-intro">
             <h2 id="connect-title">Connect it in about a minute</h2>
-            <p>Seatwise is a connector (an MCP server). You add it to your AI once, then just chat.</p>
+            <p>
+              Seatwise is a connector (an MCP server). You add it to your AI once, then just chat. Claude’s free plan is
+              enough.
+            </p>
             <UrlSign id="url-connect" label="Connector URL" class="connect-sign" />
           </div>
 
@@ -278,17 +317,34 @@ const steps = {
             <div class="panel" role="tabpanel" id="panel-claude" aria-labelledby="tab-claude" tabindex="0">
               <h3 class="panel-title">Claude</h3>
               <ol class="steps">
-                {steps.claude.map((s) => <li>{s}</li>)}
+                {steps.claude.map((s) => (
+                  <li>
+                    <p class="step-do" set:html={ui(s.do)} />
+                    {s.detail && <p class="step-detail" set:html={ui(s.detail)} />}
+                  </li>
+                ))}
               </ol>
-              <p class="panel-note">Custom connectors depend on your Claude plan. Menu names can shift as Claude updates.</p>
+              <p class="panel-note">
+                Works on Claude Free (one custom connector), Pro and Max. On a Team or Enterprise account, a workspace
+                owner adds it under Organization settings, then Connectors, and you click Connect. On the phone app, add
+                it on the web first and it shows up in the app.
+              </p>
             </div>
 
             <div class="panel" role="tabpanel" id="panel-chatgpt" aria-labelledby="tab-chatgpt" tabindex="0">
               <h3 class="panel-title">ChatGPT</h3>
               <ol class="steps">
-                {steps.chatgpt.map((s) => <li>{s}</li>)}
+                {steps.chatgpt.map((s) => (
+                  <li>
+                    <p class="step-do" set:html={ui(s.do)} />
+                    {s.detail && <p class="step-detail" set:html={ui(s.detail)} />}
+                  </li>
+                ))}
               </ol>
-              <p class="panel-note">Developer mode and custom connectors depend on your ChatGPT plan, and OpenAI renames these menus often.</p>
+              <p class="panel-note">
+                For now, OpenAI offers custom connectors mainly on ChatGPT Business, Enterprise and Edu, and on Business
+                only an admin can add one. If you don’t see Plugins on Free or Plus, use Claude’s free plan instead.
+              </p>
             </div>
 
             <div class="panel" role="tabpanel" id="panel-dev" aria-labelledby="tab-dev" tabindex="0">
