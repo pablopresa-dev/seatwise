@@ -1,7 +1,5 @@
 // Progressive enhancement only: every section works and reads without this file.
 
-const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-
 /* Copy the connector URL */
 async function copyText(text: string, input: HTMLInputElement): Promise<boolean> {
   try {
@@ -82,24 +80,3 @@ document.querySelectorAll<HTMLElement>("[data-tabs]").forEach((wrap) => {
   wrap.dataset.ready = "true";
   select(0, false);
 });
-
-/* The one authored moment: the example chat arrives line by line, once. */
-const chat = document.querySelector<HTMLElement>("[data-chat]");
-const still = new URLSearchParams(location.search).has("still");
-if (chat && !reduceMotion && !still && "IntersectionObserver" in window) {
-  const rect = chat.getBoundingClientRect();
-  // Only stage it if it starts below the fold; never hide content the reader can already see.
-  if (rect.top > window.innerHeight * 0.9) {
-    chat.dataset.stage = "waiting";
-    const io = new IntersectionObserver(
-      (entries) => {
-        if (entries.some((en) => en.isIntersecting)) {
-          chat.dataset.stage = "playing";
-          io.disconnect();
-        }
-      },
-      { rootMargin: "0px 0px -20% 0px" },
-    );
-    io.observe(chat);
-  }
-}
