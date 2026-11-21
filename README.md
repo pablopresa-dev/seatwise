@@ -28,3 +28,22 @@ npm test
 npm run dev:mcp   # MCP server over HTTP
 npm run dev:web   # landing page
 ```
+
+### Use it locally with Claude Code
+
+```sh
+npm run build
+claude mcp add seatwise -- node apps/mcp/dist/stdio.js
+```
+
+## Deployment (Vercel)
+
+One Vercel project serves both the landing page and the MCP endpoint, configured by `vercel.json`:
+
+- `apps/web/dist` is the static site.
+- `api/mcp.ts` is a Vercel Function, rewritten to `/mcp` (stateless Streamable HTTP, POST only).
+- `api/healthz.ts` is rewritten to `/healthz`.
+
+Import the repository in Vercel with the repository root as the root directory. No environment
+variables or secrets are needed. After adding a domain, update `MCP_URL` in `apps/web/src/config.ts`
+and `site` in `apps/web/astro.config.mjs`.

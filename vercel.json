@@ -1,0 +1,14 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": null,
+  "installCommand": "npm ci",
+  "buildCommand": "npm run build -w @seatwise/core -w @seatwise/mcp && npm run build -w @seatwise/web",
+  "outputDirectory": "apps/web/dist",
+  "rewrites": [
+    { "source": "/mcp", "destination": "/api/mcp" },
+    { "source": "/healthz", "destination": "/api/healthz" }
+  ],
+  "functions": {
+    "api/*.ts": { "maxDuration": 60 }
+  }
+}

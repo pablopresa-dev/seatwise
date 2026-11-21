@@ -8,6 +8,7 @@ import { afterAll, beforeAll, describe, expect, it } from "vitest";
 import { STANDARD_ROUTES, fixtureFetch } from "../../../packages/core/test/helpers.js";
 import { createHttpServer } from "../src/http.js";
 import { createSeatwiseServer } from "../src/server.js";
+import { handleMcpRequest, healthResponse } from "../src/web.js";
 
 function fixtureSource() {
   const f = fixtureFetch(STANDARD_ROUTES);
@@ -154,6 +155,33 @@ describe("HTTP transport", () => {
   it("handles a full client session over POST /mcp", async () => {
     const client = new Client({ name: "http-test", version: "0" });
     await client.connect(new StreamableHTTPClientTransport(new URL(`${base}/mcp`)));
+    const r = (await client.callTool({ name: "list_terms", arguments: {} })) as CallToolResult & { structuredContent?: any };
+    expect(r.structuredContent.defaultTermCode).toBe("20271");
+    await client.close();
+  });
+});
+
+describe("Web-standard handler (Vercel)", () => {
+  const handler = (input: RequestInfo | URL, init?: RequestInit) =>
+    handleMcpRequest(new Request(input, init), { source: fixtureSource().source });
+
+  it("serves /healthz", async () => {
+    const body = await healthResponse().json();
+    expect(body).toMatchObject({ ok: true, name: "seatwise-mcp-server" });
+  });
+
+  it("answers CORS preflight and rejects GET", async () => {
+    const pre = await handler("https://example.test/mcp", { method: "OPTIONS" });
+    expect(pre.status).toBe(204);
+    expect(pre.headers.get("Access-Control-Allow-Origin")).toBe("*");
+    expect((await handler("https://example.test/mcp")).status).toBe(405);
+  });
+
+  it("handles a full client session", async () => {
+    const client = new Client({ name: "web-test", version: "0" });
+    await client.connect(new StreamableHTTPClientTransport(new URL("https://example.test/mcp"), { fetch: handler }));
+    const tools = await client.listTools();
+    expect(tools.tools.length).toBe(8);
     const r = (await client.callTool({ name: "list_terms", arguments: {} })) as CallToolResult & { structuredContent?: any };
     expect(r.structuredContent.defaultTermCode).toBe("20271");
     await client.close();

@@ -4,8 +4,8 @@
 /** Public MCP endpoint students paste into Claude or ChatGPT. TODO: confirm final URL. */
 export const MCP_URL = "https://mcp.seatwise.app/mcp";
 
-/** Source repository. TODO: rename the repo to seatwise and make it public before launch. */
-export const GITHUB_URL = "https://github.com/pablopresa-dev/masterclasses";
+/** Source repository. TODO: make the repo public before launch. */
+export const GITHUB_URL = "https://github.com/pablopresa-dev/seatwise";
 
 export const SITE_NAME = "Seatwise";
 export const SITE_DESCRIPTION =
