@@ -1,8 +1,8 @@
 // Single source of truth for links that are still placeholders.
 // Change these and every mention on the page updates.
 
-/** Public MCP endpoint students paste into Claude or ChatGPT. TODO: confirm final URL. */
-export const MCP_URL = "https://mcp.seatwise.app/mcp";
+/** Public MCP endpoint students paste into Claude or ChatGPT. TODO: switch to the custom domain once bought. */
+export const MCP_URL = "https://seatwise-steel.vercel.app/mcp";
 
 /** Source repository. TODO: make the repo public before launch. */
 export const GITHUB_URL = "https://github.com/pablopresa-dev/seatwise";
