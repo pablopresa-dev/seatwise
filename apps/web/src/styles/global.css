@@ -1,4 +1,4 @@
-/* Seatwise landing. One world: flat hot fields, striped columns, wayfinding signs.
+/* Seatwise landing. Calm neutral ground, one raspberry accent, soft schedule tints, wayfinding signs.
    Barlow / Barlow Condensed: SIL Open Font License 1.1 (see /fonts/LICENSE-Barlow.txt). */
 
 @font-face { font-family: "Barlow Condensed"; font-style: normal; font-weight: 600; font-display: swap; src: url("/fonts/barlow-condensed-600-latin.woff2") format("woff2"); unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD; }
@@ -14,33 +14,31 @@
 
 /* ---------- Tokens ---------- */
 :root {
-  /* Field colors: identical in both themes, they are the signage. */
-  --magenta: #d6006f;
-  --vermilion: #f0502a;
-  --yellow: #ffc21a;
-  --aqua: #19b8b0;
-  --pink: #f9b4cf;
-  --sky: #a9dcf2;
-  --ink: #22142e; /* text on any colored field */
-  --on-magenta: #ffe8f2;
+  /* Accent and soft tints. Tints carry plum ink; the accent carries white. */
+  --magenta: #a3175a; /* raspberry accent: buttons, active tab, marks */
+  --vermilion: #f0b9a3;
+  --yellow: #f2dc9b;
+  --aqua: #a8d5cf;
+  --pink: #efcfdc;
+  --sky: #c6dfec;
+  --ink: #22142e; /* text on any tint */
 
   /* Neutral surfaces: flip with the theme. */
-  --stucco: #f1f3f4;
+  --stucco: #f6f4f0;
   --paper: #ffffff;
   --fg: #22142e;
   --fg-2: #54485e;
-  --rule: #d6d9de;
-  --bubble: #eceef1;
+  --rule: #e2ded7;
+  --bubble: #efece6;
   --night: #22142e;
   --on-night: #f4edf6;
   --on-night-2: #d9cfe0;
-  --accent-text: #b0005b; /* magenta readable on stucco/paper */
+  --accent-text: #a3175a; /* accent readable on stucco/paper */
 
   --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
   --font-text: "Barlow", system-ui, sans-serif;
   --font-mono: ui-monospace, "SFMono-Regular", "Cascadia Mono", Consolas, monospace;
 
-  --stripe: 2.75rem;
   --pad: clamp(1rem, 4vw, 3rem);
   --section: clamp(4.5rem, 10vw, 8.5rem);
   --r-sm: 6px;
@@ -55,7 +53,12 @@
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --magenta: #c00064;
+    --magenta: #c2387a;
+    --vermilion: #d9a08a;
+    --yellow: #d9c27f;
+    --aqua: #8fbfb9;
+    --pink: #d7b4c3;
+    --sky: #a9c6d4;
     --stucco: #170f1d;
     --paper: #211729;
     --fg: #f4edf6;
@@ -63,13 +66,18 @@
     --rule: #3b2f45;
     --bubble: #2f2438;
     --night: #0f0913;
-    --accent-text: #ff7ab8;
+    --accent-text: #f08bb9;
     --focus: #ffffff;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --magenta: #c00064;
+  --magenta: #c2387a;
+  --vermilion: #d9a08a;
+  --yellow: #d9c27f;
+  --aqua: #8fbfb9;
+  --pink: #d7b4c3;
+  --sky: #a9c6d4;
   --stucco: #170f1d;
   --paper: #211729;
   --fg: #f4edf6;
@@ -77,7 +85,7 @@
   --rule: #3b2f45;
   --bubble: #2f2438;
   --night: #0f0913;
-  --accent-text: #ff7ab8;
+  --accent-text: #f08bb9;
   --focus: #ffffff;
   color-scheme: dark;
 }
@@ -172,9 +180,6 @@ a {
   margin-inline: auto;
   padding-inline: var(--pad);
 }
-@media (min-width: 900px) {
-  .wrap { padding-inline-start: calc(var(--pad) + var(--stripe)); }
-}
 
 .text-link { display: inline-flex; align-items: center; gap: 0.375rem; font-weight: 600; }
 .icon { width: 1.25rem; height: 1.25rem; flex: none; }
@@ -206,31 +211,11 @@ a {
 /* ---------- Hero ---------- */
 .hero {
   position: relative;
-  background: var(--magenta);
-  color: #fff;
-  --focus: #fff;
+  background: var(--stucco);
+  color: var(--fg);
   isolation: isolate;
 }
 
-.hero-stripes {
-  display: flex;
-  height: 0.625rem;
-}
-.hero-stripes span { flex: 1; }
-.hero-stripes span:nth-child(1) { background: var(--vermilion); }
-.hero-stripes span:nth-child(2) { background: var(--yellow); }
-.hero-stripes span:nth-child(3) { background: var(--aqua); }
-.hero-stripes span:nth-child(4) { background: var(--pink); }
-.hero-stripes span:nth-child(5) { background: var(--sky); }
-
-@media (min-width: 900px) {
-  .hero-stripes {
-    position: absolute;
-    inset: 0 auto 0 0;
-    width: var(--stripe);
-    height: auto;
-  }
-}
 
 .nav {
   display: flex;
@@ -273,15 +258,14 @@ a {
   align-items: center;
   min-height: 44px;
   padding: 0 1.125rem;
-  background: var(--yellow);
-  color: var(--ink);
+  background: var(--fg);
+  color: var(--stucco);
   font-weight: 600;
   text-decoration: none;
   border-radius: var(--r-sm);
   transition: transform 160ms var(--ease-out);
 }
 .nav-cta:active { transform: scale(0.97); }
-.nav-cta:focus-visible { outline-color: #fff; }
 @media (max-width: 639px) {
   .nav-wide { display: none; }
 }
@@ -309,19 +293,19 @@ a {
   max-width: 34rem;
   font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.25rem);
   line-height: 1.5;
-  color: var(--on-magenta);
+  color: var(--fg-2);
 }
 .hero-sign { margin-top: 2rem; max-width: 34rem; }
 .hero-more { margin-top: 1rem; font-weight: 600; }
-.hero-more a { display: inline-flex; min-height: 44px; align-items: center; }
+.hero-more a { display: inline-flex; min-height: 44px; align-items: center; color: var(--accent-text); }
 
 /* ---------- URL sign ---------- */
 .sign {
-  background: var(--yellow);
-  color: var(--ink);
+  background: var(--paper);
+  color: var(--fg);
+  border: 1px solid var(--rule);
   border-radius: var(--r-md);
   padding: 1rem 1rem 1.125rem;
-  --focus: var(--ink);
 }
 .sign-label {
   display: block;
@@ -358,7 +342,7 @@ a {
   padding: 0 1.125rem;
   border: 0;
   border-radius: var(--r-sm);
-  background: var(--ink);
+  background: var(--magenta);
   color: #fff;
   font-weight: 600;
   touch-action: manipulation;
@@ -366,8 +350,8 @@ a {
 }
 .sign-copy:active { transform: scale(0.97); }
 @media (hover: hover) and (pointer: fine) {
-  .sign-copy:hover { background: #3a2549; }
-  .nav-cta:hover { background: #ffd24f; }
+  .sign-copy:hover { background: color-mix(in srgb, var(--magenta) 85%, #000); }
+  .nav-cta:hover { background: color-mix(in srgb, var(--fg) 85%, var(--stucco)); }
 }
 .sign-copy-face {
   grid-area: 1 / 1;
@@ -417,7 +401,7 @@ a {
   font-weight: 600;
   font-variant-numeric: tabular-nums;
   line-height: 1;
-  color: var(--on-magenta);
+  color: var(--fg-2);
   transform: translateY(-0.45em);
   white-space: nowrap;
 }
@@ -425,13 +409,14 @@ a {
 .week-line {
   grid-column: 2 / -1;
   align-self: start;
-  border-top: 1px solid rgb(255 255 255 / 0.3);
+  border-top: 1px solid var(--rule);
 }
 .week-off {
   grid-column: 6;
   margin: 0 2px;
   border-radius: var(--r-sm);
-  background: repeating-linear-gradient(135deg, rgb(255 255 255 / 0.16) 0 7px, transparent 7px 14px);
+  background: repeating-linear-gradient(135deg, color-mix(in srgb, var(--fg) 7%, transparent) 0 7px, transparent 7px 14px);
+  color: var(--fg-2);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -448,17 +433,17 @@ a {
 }
 .week-ghost {
   margin: 2px 3px;
-  border: 2px dashed rgb(255 255 255 / 0.75);
+  border: 2px dashed color-mix(in srgb, var(--fg) 30%, transparent);
   border-radius: var(--r-sm);
   padding: 6px 8px;
   font-size: 0.75rem;
   font-weight: 600;
   line-height: 1.15;
-  color: #fff;
+  color: var(--fg-2);
   overflow: hidden;
   position: relative;
   z-index: 1;
-  background: var(--magenta);
+  background: var(--stucco);
 }
 .week-block {
   margin: 2px 0;
@@ -497,7 +482,7 @@ a {
 .week-caption {
   margin-top: 1rem;
   font-size: 0.9375rem;
-  color: var(--on-magenta);
+  color: var(--fg-2);
   max-width: 36rem;
 }
 
@@ -801,10 +786,9 @@ a {
 
 /* ---------- Rules ---------- */
 .rules {
-  background: var(--aqua);
-  color: var(--ink);
-  padding-block: 0 var(--section);
-  --focus: var(--ink);
+  background: var(--paper);
+  color: var(--fg);
+  padding-block: var(--section);
 }
 .rules h2 { max-width: 13ch; }
 .rule-list {
@@ -818,18 +802,11 @@ a {
 .rule-list li {
   display: grid;
   align-content: start;
-  border-top: 4px solid var(--ink);
+  border-top: 4px solid var(--fg);
   padding-top: 1.25rem;
 }
 .rule-list h3 { font-size: clamp(1.625rem, 1.3rem + 1vw, 2.125rem); line-height: 1; margin-bottom: 0.625rem; }
 .rule-list p { font-size: 1.125rem; max-width: 30rem; }
-.band-stripes { display: flex; height: 0.875rem; margin-bottom: var(--section); }
-.band-stripes span { flex: 1; }
-.band-stripes span:nth-child(1) { background: var(--magenta); }
-.band-stripes span:nth-child(2) { background: var(--vermilion); }
-.band-stripes span:nth-child(3) { background: var(--yellow); }
-.band-stripes span:nth-child(4) { background: var(--pink); }
-.band-stripes span:nth-child(5) { background: var(--sky); }
 .rules-limits {
   margin-top: clamp(2.5rem, 6vw, 4rem);
   max-width: 46rem;
