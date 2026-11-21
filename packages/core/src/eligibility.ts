@@ -300,7 +300,7 @@ export function checkEligibility(course: Course, profile: StudentProfile): Eligi
   }
 
   if (course.recommendedPrep) {
-    rules.push({ rule: "recommended_prep", outcome: "info", message: `Recommended preparation (not enforced): ${course.recommendedPrep}.` });
+    rules.push({ rule: "recommended_prep", outcome: "info", message: `Recommended preparation (not enforced): ${course.recommendedPrep.trim().replace(/[.\s]+$/, "")}.` });
   }
 
   if (course.duplicateCredit) {

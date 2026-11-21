@@ -1,233 +1,55 @@
 ---
 name: Seatwise
-description: Wayfinding for your semester, hung on the AI chat you already use.
+description: A short personal page for a student-made USC course planner.
 colors:
-  accent-raspberry: "#a3175a"
-  tint-vermilion: "#f0b9a3"
-  tint-yellow: "#f2dc9b"
-  tint-aqua: "#a8d5cf"
-  tint-pink: "#efcfdc"
-  tint-sky: "#c6dfec"
-  plum-ink: "#22142e"
-  stucco: "#f6f4f0"
+  bg: "#f6f4f0"
   paper: "#ffffff"
-  fg-secondary: "#54485e"
+  fg: "#22142e"
+  fg-secondary: "#5a5060"
   rule: "#e2ded7"
-  bubble: "#efece6"
-  accent-text: "#a3175a"
-  night-stucco: "#170f1d"
-  night-paper: "#211729"
-  night-fg: "#f4edf6"
-  night-raspberry: "#c2387a"
+  accent-raspberry: "#a3175a"
+  ok: "#1d6b4f"
+  night-bg: "#17121b"
+  night-paper: "#211a26"
+  night-fg: "#f1ebf3"
+  night-accent: "#c2387a"
   night-accent-text: "#f08bb9"
 typography:
-  display:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.75rem, 1.5rem + 4.2vw, 5rem)"
-    fontWeight: 800
-    lineHeight: 0.92
-    letterSpacing: "-0.01em"
-  headline:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "clamp(2.375rem, 1.6rem + 3.2vw, 4.5rem)"
-    fontWeight: 800
-    lineHeight: 0.95
-  title:
-    fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
-    fontSize: "1.5rem"
-    fontWeight: 800
-    lineHeight: 1.05
-  body:
-    fontFamily: "Barlow, system-ui, sans-serif"
-    fontSize: "1.0625rem"
-    fontWeight: 400
-    lineHeight: 1.55
-  label:
-    fontFamily: "Barlow, system-ui, sans-serif"
-    fontSize: "0.9375rem"
-    fontWeight: 600
-    lineHeight: 1.3
-  code:
-    fontFamily: "ui-monospace, SFMono-Regular, Cascadia Mono, Consolas, monospace"
-    fontSize: "0.9375rem"
-    fontWeight: 400
-rounded:
-  sm: "6px"
-  md: "10px"
-  lg: "16px"
-spacing:
-  gutter: "clamp(1rem, 4vw, 3rem)"
-  stripe: "2.75rem"
-  section: "clamp(4.5rem, 10vw, 8.5rem)"
-components:
-  button-primary:
-    backgroundColor: "{colors.plum-ink}"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.sm}"
-    padding: "0 18px"
-    height: "48px"
-  button-nav:
-    backgroundColor: "{colors.plum-ink}"
-    textColor: "{colors.stucco}"
-    rounded: "{rounded.sm}"
-    padding: "0 18px"
-    height: "44px"
-  sign:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.plum-ink}"
-    rounded: "{rounded.md}"
-    padding: "16px"
-  input-field:
-    backgroundColor: "{colors.paper}"
-    textColor: "{colors.plum-ink}"
-    rounded: "{rounded.sm}"
-    padding: "0 14px"
-    height: "48px"
-  tab-selected:
-    backgroundColor: "{colors.accent-raspberry}"
-    textColor: "{colors.paper}"
-    rounded: "{rounded.sm}"
-    padding: "0 20px"
-    height: "52px"
-  tab-plate:
-    backgroundColor: "{colors.bubble}"
-    textColor: "{colors.plum-ink}"
-    rounded: "{rounded.sm}"
-    padding: "0 20px"
-    height: "52px"
-  tag:
-    backgroundColor: "{colors.tint-aqua}"
-    textColor: "{colors.plum-ink}"
-    rounded: "{rounded.sm}"
-    padding: "8px 14px"
+  prose: "Charter, Iowan Old Style, Sitka Text, Cambria, Georgia, serif (system fonts)"
+  ui: "Barlow 400/600 (self-hosted, OFL)"
+  mono: "ui-monospace, SF Mono, Cascadia Mono, Consolas"
 ---
 
-# Design System: Seatwise
+# Seatwise design
 
-## Overview
+## Direction
 
-**Creative North Star: "The Kit of Parts"**
+Since 2026-11-21 the landing is a short personal page, not a product landing page. Two earlier versions (hot
+signage colors, then the same structure in calm colors) still read as AI-generated, because the structure was
+the template: big hero, feature list with icons, staged fake chat, privacy card grid. The fix was content and
+structure, not color.
 
-Seatwise does not build a new venue; it dresses one that already exists. The system borrows the logic of wayfinding signage: big condensed letters, short plain sentences, one action per sign, layered over existing architecture. Here the existing architecture is the student's AI chat, rendered in quiet greyscale.
+What makes it read as made by a person:
 
-Since 2026-11-21 the palette is deliberately calm. The first version used whole bands of hot magenta, aqua and yellow plus rainbow stripe columns; it read as loud and was retired. Pages now sit on a warm neutral ground (stucco and paper, with one plum night band), color lives in the schedule's soft tints, and a single raspberry accent marks what to press. There are no gradients, no glass, no soft card shadows.
+- **First person.** The page opens with who built it and why (an exchange student who found registration hard).
+- **Real output, not a mock.** The example is a verbatim reply from the live server, dated. Replace it with a real
+  screenshot of a Claude conversation once one exists.
+- **One column of prose.** About 42rem wide, serif body text, sans only for headings and interface labels.
+- **Plain lists instead of cards.** What it does, and what it doesn't, as two bulleted lists.
+- **Modest type.** The heading is a sentence at about 2.75rem, not a poster.
 
-**Key Characteristics:**
-- Neutral grounds; color comes from the schedule tints and one raspberry accent.
-- Condensed heavy display type in sentence case; plain humanist sans for reading.
-- Geometric confetti (circle, triangle, square, half-disc, diamond, ring) as a wayfinding key.
-- Neutral "existing architecture" (chat, panels) versus colored Seatwise signage pinned to it.
-- One authored motion moment per page; everything else answers the user.
+## Rules
 
-## Colors
-
-A warm neutral ground, five soft tints and one raspberry accent. Tints are slightly deeper in the dark theme.
-
-### Primary
-- **Raspberry** (accent-raspberry): the copy button, the active tab, the circle marker and tool marks. Carries white text only. In dark theme it is night-raspberry, and text accents use night-accent-text.
-
-### Secondary
-- **Soft tints** (tint-yellow, tint-aqua, tint-vermilion, tint-pink, tint-sky): schedule blocks, tags, the wayfinding markers and quoted example prompts on night. Plum ink text only.
-
-### Neutral
-- **Plum Ink** (plum-ink): all text on colored fields, primary buttons, the night band in light theme.
-- **Stucco** (stucco) and **Paper** (paper): page ground and the neutral chat/panel surfaces in light theme; Night Stucco and Night Paper in dark theme.
-- **Secondary Text** (fg-secondary), **Rule** (rule), **Bubble** (bubble): supporting text, hairlines, the user's chat bubble.
-- **Accent Text** (accent-text): raspberry strong enough for text on stucco or paper (step numbers, links).
-
-### Named Rules
-**The One Accent Rule.** Raspberry marks what to press or what is selected. Nothing else on the page competes with it: no full-bleed color bands, no stripe columns, no glows or gradients.
-
-**The Neutral Architecture Rule.** Anything that represents the user's AI (chat window, bubbles, tool lines) stays greyscale. Color is reserved for what Seatwise adds.
-
-**The Ink-on-Tint Rule.** Text on the tints is plum ink. Text on raspberry is white. Never the reverse.
-
-## Typography
-
-**Display Font:** Barlow Condensed 800 (fallback Arial Narrow)
-**Body Font:** Barlow 400/500/600 (fallback system-ui)
-**Label/Mono Font:** system monospace, only for the connector URL
-
-**Character:** Barlow descends from California public signage (plates, highway signs, transit), so the condensed cut reads as wayfinding rather than tech. The regular cut keeps body copy warm and plain for students reading in a second language.
-
-### Hierarchy
-- **Display** (800, clamp up to 5rem, 0.92): the hero sentence only.
-- **Headline** (800, clamp up to 4.5rem, 0.95): one per band; sentence case, balanced, max about 14ch.
-- **Title** (800, 1.5–2.125rem, 1–1.05): directory names, rule names, tab labels, sign labels.
-- **Body** (400, 1.0625rem, 1.55): prose capped near 36–40rem; ledes at 1.1875rem.
-- **Label** (600, 0.9375rem): tags, form labels, button text; never all caps.
-
-### Named Rules
-**The Sentence Case Rule.** No all-caps labels, no tracked eyebrows above headings. A heading speaks for itself.
-
-**The Numbers Line Up Rule.** Times, seats and section numbers use tabular figures.
-
-## Layout
-
-Content sits in a 82rem container with a fluid gutter (spacing.gutter). From 900px up, every container is inset on the left by the stripe width (spacing.stripe) so all bands align with the hero's edge column. Bands use generous vertical padding (spacing.section). Two-column splits appear from 900–1024px up and stack below. The page is verified from 360px to wide desktop with no horizontal scroll; wide tables scroll inside their own focusable region.
-
-The hero timetable is a CSS grid of 10-minute rows (8am–5pm) by five day columns, with blocks placed by start and end time. From 1024px up it runs off the right edge of the viewport, like a supergraphic painted past the frame.
-
-## Elevation & Depth
-
-Flat by construction. No box shadows for depth; separation comes from abutting color fields, 1px rules on neutral surfaces, and layering colored signage over greyscale architecture.
-
-### Named Rules
-**The Flat Sign Rule.** Signs are flat painted panels. No drop shadows, bevels or glows; if something needs to stand out, give it a field color.
-
-## Shapes
-
-Gently rounded rectangles in three steps: 6px for controls, tags and schedule blocks; 10px for signs and table frames; 16px for chat windows and panels. Wayfinding markers are pure geometry (circle, triangle, square, half-disc, rotated square, ring). Leader lines (2px with a 10px dot) pin tags to the thing they explain. Dashed outlines mean "considered and rejected".
-
-### Named Rules
-**The One Key Rule.** Each confetti shape means one thing site-wide (circle: understands, triangle: eligibility, square: schedule rules, half-disc: completed work, diamond: seats, ring: coming soon). Never reuse a shape with a new meaning.
+- **One accent.** Raspberry marks the copy button, the active tab and links. Nothing else is colored, except the
+  pass/fail tags in the real output.
+- **No decoration.** No icons for features, no gradients, no shadows, no color bands, no scroll animations.
+- **No invented examples.** Every example on the page is real output, or labeled as a prompt to try.
+- **Exact UI labels.** Setup steps name buttons exactly as Claude and ChatGPT show them, in bold sans. Re-check
+  them after each app redesign.
 
 ## Components
 
-### Buttons
-- **Shape:** gently rounded (6px), min height 44–52px, `touch-action: manipulation`.
-- **Primary:** plum ink with white label (button-primary); hover lifts to a lighter plum; press scales to 0.97 over 160ms with a strong ease-out.
-- **Nav call to action:** plum ink (foreground color) with the ground color as label.
-- **Copy button:** two stacked faces (Copy / Copied) cross-fade with a 2px blur and a teal confirm background; a polite live region announces the result.
-
-### Signs
-- **The URL sign** (sign): a paper panel with a hairline border holding a condensed label, a read-only mono field and the raspberry copy button. It always stands alone, with nothing competing beside it.
-
-### Inputs / Fields
-- **Style:** white field, 2px plum-ink border, 6px radius, magenta caret.
-- **Error:** magenta border plus ring, `aria-invalid`, and an inline message that names the fix.
-
-### Tags (signature)
-- Flat colored chips with a geometric marker, pinned by a leader line to the chat line they explain; below 1024px the leader shortens and the tag sits inside the chat column. The ring marker on pink means "coming soon".
-
-### Navigation
-- White links on magenta, 44px targets, underline on hover; secondary links hide below 640px leaving GitHub and the yellow Connect sign.
-
-### Tabs
-- Flat sign plates in condensed 800 (1.5rem), squared at the bottom so they hang from the panel rule. Unselected plates are neutral (bubble); the selected plate is a magenta field with white text. Panels are not cards: a 4px magenta rule, then content on the page ground, with step numerals in condensed 800 at 3rem. WAI-ARIA tabs with arrow, Home and End keys; without JS all panels show.
-
-### Seat strip (signature)
-- Twenty identical 3px ticks per section, read by sweeping the row: aqua ticks are open seats, translucent ink ticks are taken. The numeric text always follows ("6 of 19 open", "Full (25 seats)"); the ticks are decorative for assistive tech.
-
-### Stripe band
-- The five field colors as equal flat stripes: a vertical column at the hero edge (2.75rem) from 900px up, a horizontal band (0.625–0.875rem) on narrow screens and as a divider at the top of a field band.
-
-### Posted rules
-- Trust and policy items hang under a 4px ink rule with a condensed title and plain text; two columns from 900px. No shapes: the geometric key is reserved for capabilities.
-
-### Timetable (signature)
-- Day letters as large condensed signage, hours in tabular figures, chosen sections as solid field blocks, rejected sections as dashed outlines, unavailable time as diagonal hatching.
-
-## Do's and Don'ts
-
-### Do:
-- **Do** give each band one field color and let it fill the full width.
-- **Do** keep the AI's interface greyscale and put color only on Seatwise's additions.
-- **Do** label demonstration data as illustrative, and keep the connector URL in one constant.
-- **Do** honor `prefers-reduced-motion`: the chat arrival and smooth scrolling switch off; content is visible by default.
-
-### Don't:
-- **Don't** use gradients, glass, glows, or soft-shadowed cards.
-- **Don't** use cardinal and gold, USC marks, or Trojan imagery; the page must never look official.
-- **Don't** put white text on vermilion, yellow, aqua, pink or sky.
-- **Don't** add eyebrows, all-caps labels, or numbered section markers; numbers are for real sequences (setup steps) only.
+- **URL box** (`UrlSign`): label, read-only mono field, raspberry Copy button that cross-fades to Copied.
+- **Tabs**: Claude / ChatGPT / On your computer, underline style, WAI-ARIA tabs with arrow keys.
+- **Steps**: numbered list with small ink circles; a step can carry one line of detail in secondary text.
+- **Real output** (`.out`): paper panel, mono text, bold course headings, caption with the fetch date.
