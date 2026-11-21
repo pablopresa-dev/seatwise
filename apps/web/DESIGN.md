@@ -2,24 +2,24 @@
 name: Seatwise
 description: Wayfinding for your semester, hung on the AI chat you already use.
 colors:
-  field-magenta: "#d6006f"
-  field-vermilion: "#f0502a"
-  field-yellow: "#ffc21a"
-  field-aqua: "#19b8b0"
-  pastel-pink: "#f9b4cf"
-  pastel-sky: "#a9dcf2"
+  accent-raspberry: "#a3175a"
+  tint-vermilion: "#f0b9a3"
+  tint-yellow: "#f2dc9b"
+  tint-aqua: "#a8d5cf"
+  tint-pink: "#efcfdc"
+  tint-sky: "#c6dfec"
   plum-ink: "#22142e"
-  on-magenta: "#ffe8f2"
-  stucco: "#f1f3f4"
+  stucco: "#f6f4f0"
   paper: "#ffffff"
   fg-secondary: "#54485e"
-  rule: "#d6d9de"
-  bubble: "#eceef1"
-  accent-text: "#b0005b"
+  rule: "#e2ded7"
+  bubble: "#efece6"
+  accent-text: "#a3175a"
   night-stucco: "#170f1d"
   night-paper: "#211729"
   night-fg: "#f4edf6"
-  night-magenta: "#c00064"
+  night-raspberry: "#c2387a"
+  night-accent-text: "#f08bb9"
 typography:
   display:
     fontFamily: "Barlow Condensed, Arial Narrow, sans-serif"
@@ -67,13 +67,13 @@ components:
     padding: "0 18px"
     height: "48px"
   button-nav:
-    backgroundColor: "{colors.field-yellow}"
-    textColor: "{colors.plum-ink}"
+    backgroundColor: "{colors.plum-ink}"
+    textColor: "{colors.stucco}"
     rounded: "{rounded.sm}"
     padding: "0 18px"
     height: "44px"
   sign:
-    backgroundColor: "{colors.field-yellow}"
+    backgroundColor: "{colors.paper}"
     textColor: "{colors.plum-ink}"
     rounded: "{rounded.md}"
     padding: "16px"
@@ -84,7 +84,7 @@ components:
     padding: "0 14px"
     height: "48px"
   tab-selected:
-    backgroundColor: "{colors.field-magenta}"
+    backgroundColor: "{colors.accent-raspberry}"
     textColor: "{colors.paper}"
     rounded: "{rounded.sm}"
     padding: "0 20px"
@@ -96,7 +96,7 @@ components:
     padding: "0 20px"
     height: "52px"
   tag:
-    backgroundColor: "{colors.field-aqua}"
+    backgroundColor: "{colors.tint-aqua}"
     textColor: "{colors.plum-ink}"
     rounded: "{rounded.sm}"
     padding: "8px 14px"
@@ -108,12 +108,12 @@ components:
 
 **Creative North Star: "The Kit of Parts"**
 
-Seatwise does not build a new venue; it dresses one that already exists. The system borrows the logic of 1980s Los Angeles environmental graphics: flat, hot color fields, striped columns and wayfinding signs layered over existing architecture. Here the existing architecture is the student's AI chat, rendered in quiet greyscale, and Seatwise is the colored signage pinned onto it.
+Seatwise does not build a new venue; it dresses one that already exists. The system borrows the logic of wayfinding signage: big condensed letters, short plain sentences, one action per sign, layered over existing architecture. Here the existing architecture is the student's AI chat, rendered in quiet greyscale.
 
-Pages are paced as a sequence of whole color fields (magenta, stucco, night, aqua, yellow), each owning a full-width band. Inside a field, content is set like signage: big condensed letters, short plain sentences, one action per sign. There are no gradients, no glass, no soft card shadows; depth comes from color fields abutting each other and from layering signage over neutral surfaces.
+Since 2026-11-21 the palette is deliberately calm. The first version used whole bands of hot magenta, aqua and yellow plus rainbow stripe columns; it read as loud and was retired. Pages now sit on a warm neutral ground (stucco and paper, with one plum night band), color lives in the schedule's soft tints, and a single raspberry accent marks what to press. There are no gradients, no glass, no soft card shadows.
 
 **Key Characteristics:**
-- Whole-band color fields, never accents sprinkled on a neutral template.
+- Neutral grounds; color comes from the schedule tints and one raspberry accent.
 - Condensed heavy display type in sentence case; plain humanist sans for reading.
 - Geometric confetti (circle, triangle, square, half-disc, diamond, ring) as a wayfinding key.
 - Neutral "existing architecture" (chat, panels) versus colored Seatwise signage pinned to it.
@@ -121,31 +121,26 @@ Pages are paced as a sequence of whole color fields (magenta, stucco, night, aqu
 
 ## Colors
 
-A full palette of flat, saturated signage colors on a cool stucco ground; field colors are identical in light and dark themes.
+A warm neutral ground, five soft tints and one raspberry accent. Tints are slightly deeper in the dark theme.
 
 ### Primary
-- **Field Magenta** (field-magenta): the hero field and the brand mark's ground. Carries white or on-magenta text only, never plum ink.
+- **Raspberry** (accent-raspberry): the copy button, the active tab, the circle marker and tool marks. Carries white text only. In dark theme it is night-raspberry, and text accents use night-accent-text.
 
 ### Secondary
-- **Chrome Yellow** (field-yellow): the action sign (connector URL), the nav call to action, and quoted example prompts on night.
-- **Signal Aqua** (field-aqua): the privacy band and "data" tags; schedule blocks.
-- **Vermilion** (field-vermilion): schedule blocks and "your rules" tags; the half-disc marker. Plum ink text only (white fails contrast).
-
-### Tertiary
-- **Pastel Pink** (pastel-pink) and **Pastel Sky** (pastel-sky): secondary schedule blocks, tags and the stripe column; also the "coming soon" link on night.
+- **Soft tints** (tint-yellow, tint-aqua, tint-vermilion, tint-pink, tint-sky): schedule blocks, tags, the wayfinding markers and quoted example prompts on night. Plum ink text only.
 
 ### Neutral
 - **Plum Ink** (plum-ink): all text on colored fields, primary buttons, the night band in light theme.
 - **Stucco** (stucco) and **Paper** (paper): page ground and the neutral chat/panel surfaces in light theme; Night Stucco and Night Paper in dark theme.
 - **Secondary Text** (fg-secondary), **Rule** (rule), **Bubble** (bubble): supporting text, hairlines, the user's chat bubble.
-- **Accent Text** (accent-text): magenta strong enough for text on stucco or paper (step numbers).
+- **Accent Text** (accent-text): raspberry strong enough for text on stucco or paper (step numbers, links).
 
 ### Named Rules
-**The Field Rule.** Color arrives as whole bands or whole signs. A field color never appears as a thin accent line, a glow, or a gradient.
+**The One Accent Rule.** Raspberry marks what to press or what is selected. Nothing else on the page competes with it: no full-bleed color bands, no stripe columns, no glows or gradients.
 
 **The Neutral Architecture Rule.** Anything that represents the user's AI (chat window, bubbles, tool lines) stays greyscale. Color is reserved for what Seatwise adds.
 
-**The Ink-on-Hot Rule.** Text on yellow, aqua, vermilion, pink and sky is plum ink. Text on magenta is white or on-magenta. Never the reverse.
+**The Ink-on-Tint Rule.** Text on the tints is plum ink. Text on raspberry is white. Never the reverse.
 
 ## Typography
 
@@ -192,11 +187,11 @@ Gently rounded rectangles in three steps: 6px for controls, tags and schedule bl
 ### Buttons
 - **Shape:** gently rounded (6px), min height 44–52px, `touch-action: manipulation`.
 - **Primary:** plum ink with white label (button-primary); hover lifts to a lighter plum; press scales to 0.97 over 160ms with a strong ease-out.
-- **Nav call to action:** chrome yellow with plum ink (button-nav).
+- **Nav call to action:** plum ink (foreground color) with the ground color as label.
 - **Copy button:** two stacked faces (Copy / Copied) cross-fade with a 2px blur and a teal confirm background; a polite live region announces the result.
 
 ### Signs
-- **The URL sign** (sign): a yellow panel holding a condensed label, a read-only mono field and the copy button. It always stands alone, with nothing competing beside it.
+- **The URL sign** (sign): a paper panel with a hairline border holding a condensed label, a read-only mono field and the raspberry copy button. It always stands alone, with nothing competing beside it.
 
 ### Inputs / Fields
 - **Style:** white field, 2px plum-ink border, 6px radius, magenta caret.
