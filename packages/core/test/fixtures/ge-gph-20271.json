@@ -1,0 +1,1103 @@
+{
+ "geRequirementPrefix": "AGLOPERS",
+ "geCategoryPrefix": "GPH",
+ "termCode": 20271,
+ "courses": [
+  {
+   "courseId": 50392,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "121",
+   "sequence": null,
+   "suffix": "gp",
+   "description": "European art and its legacy in the Americas. Painting, sculpture, architecture and other visual media considered in relation to social and cultural history.",
+   "fullCourseName": "AHIS 121",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "37",
+   "scheduledCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "publishedCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "matchedCourseCode": {
+    "prefix": "AHIS",
+    "number": "121",
+    "suffix": "",
+    "courseHyphen": "AHIS-121",
+    "courseSpace": "AHIS 121",
+    "courseSmashed": "AHIS121"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "11818",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 761117,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": "Register for lec & 1 dis",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "11:00",
+       "endTime": "12:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 100,
+     "registeredSeats": 40,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Amy",
+       "lastName": "Ogata"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11818",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11819",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 761123,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 10,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Ruys De Perez"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11819",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11821",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760949,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 3,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Cora",
+       "lastName": "Sperling"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11821",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11820",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760945,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 22,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Ruys De Perez"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11820",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "11822",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 760953,
+     "courseId": 50392,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 5,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Cora",
+       "lastName": "Sperling"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/AHIS/121/11822",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 60,
+   "sectionSeatCount": 100,
+   "termCode": 20271,
+   "prefix": "AHIS",
+   "name": "Foundations of Western Art: Renaissance to Contemporary",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 47396,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "101",
+   "sequence": null,
+   "suffix": "gp",
+   "description": "Achievements of the near East, Greece, and Rome with emphasis on the development of ideas, arts, and institutions which have influenced modern man.",
+   "fullCourseName": "CLAS 101",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "37",
+   "scheduledCourseCode": {
+    "prefix": "HIST",
+    "number": "101",
+    "suffix": "",
+    "courseHyphen": "HIST-101",
+    "courseSpace": "HIST 101",
+    "courseSmashed": "HIST101"
+   },
+   "publishedCourseCode": {
+    "prefix": "CLAS",
+    "number": "101",
+    "suffix": "",
+    "courseHyphen": "CLAS-101",
+    "courseSpace": "CLAS 101",
+    "courseSmashed": "CLAS101"
+   },
+   "matchedCourseCode": {
+    "prefix": "CLAS",
+    "number": "101",
+    "suffix": "",
+    "courseHyphen": "CLAS-101",
+    "courseSpace": "CLAS 101",
+    "courseSmashed": "CLAS101"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "36909",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 787341,
+     "courseId": 47396,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 25,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/101/36909",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36913",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 773079,
+     "courseId": 47396,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "12:30",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 50,
+     "registeredSeats": 50,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Christelle",
+       "lastName": "Fischer-Bovet"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/101/36913",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36914",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 773080,
+     "courseId": 47396,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 6,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/101/36914",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36908",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 787340,
+     "courseId": 47396,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 17,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/101/36908",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36915",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38124,
+     "peSectionId": 773081,
+     "courseId": 47396,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/101/36915",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 0,
+   "sectionSeatCount": 50,
+   "termCode": 20271,
+   "prefix": "HIST",
+   "name": "State and Society in the Ancient World",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 46261,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "107",
+   "sequence": null,
+   "suffix": "gp",
+   "description": " Japan from the earliest times to the present; social, cultural,and political dimensions. ",
+   "fullCourseName": "HIST 107",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": "37",
+   "scheduledCourseCode": {
+    "prefix": "HIST",
+    "number": "107",
+    "suffix": "",
+    "courseHyphen": "HIST-107",
+    "courseSpace": "HIST 107",
+    "courseSmashed": "HIST107"
+   },
+   "publishedCourseCode": {
+    "prefix": "HIST",
+    "number": "107",
+    "suffix": "",
+    "courseHyphen": "HIST-107",
+    "courseSpace": "HIST 107",
+    "courseSmashed": "HIST107"
+   },
+   "matchedCourseCode": {
+    "prefix": "HIST",
+    "number": "107",
+    "suffix": "",
+    "courseHyphen": "HIST-107",
+    "courseSpace": "HIST 107",
+    "courseSmashed": "HIST107"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "36949",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 787346,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 9,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36949",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36943",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 773082,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 150,
+     "registeredSeats": 85,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Benjamin",
+       "lastName": "Uchiyama"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36943",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36941",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 787342,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 5,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36941",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36944",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 773083,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "09:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 8,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36944",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36945",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 773084,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "10:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 15,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36945",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36946",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 773085,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 23,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36946",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "36947",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 773086,
+     "courseId": 46261,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 25,
+     "registeredSeats": 25,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/HIST/107/36947",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 65,
+   "sectionSeatCount": 150,
+   "termCode": 20271,
+   "prefix": "HIST",
+   "name": "Introduction to the History of Japan",
+   "sortOrder": 0
+  }
+ ]
+}

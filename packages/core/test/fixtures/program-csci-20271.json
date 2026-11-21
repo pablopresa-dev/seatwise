@@ -1,0 +1,5942 @@
+{
+ "schoolPrefix": "ENGV",
+ "programPrefix": "CSCI",
+ "gePrefix": "ANY",
+ "termCode": 20271,
+ "courses": [
+  {
+   "courseId": 58931,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "102",
+   "sequence": null,
+   "suffix": "L",
+   "description": "Fundamental concepts of algorithmic thinking as a primer to programming. Introduction to C++.",
+   "fullCourseName": "CSCI 102",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "102",
+    "suffix": "",
+    "courseHyphen": "CSCI-102",
+    "courseSpace": "CSCI 102",
+    "courseSmashed": "CSCI102"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "102",
+    "suffix": "",
+    "courseHyphen": "CSCI-102",
+    "courseSpace": "CSCI 102",
+    "courseSmashed": "CSCI102"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "102",
+    "suffix": "",
+    "courseHyphen": "CSCI-102",
+    "courseSpace": "CSCI 102",
+    "courseSmashed": "CSCI102"
+   },
+   "courseUnits": [
+    2
+   ],
+   "sections": [
+    {
+     "sisSectionId": "29908",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764298,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "14:00",
+       "endTime": "14:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 58,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "2.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Goodney"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/29908",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30201",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764593,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "15:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 18,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "2.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Andrew",
+       "lastName": "Goodney"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30201",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30225",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764647,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "15:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 19,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30225",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30257",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764612,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "16:00",
+       "endTime": "16:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 12,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30257",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30247",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764582,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "17:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 13,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30247",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30250",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764591,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 12,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30250",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30251",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764594,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "12:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 9,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30251",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30252",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764597,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "13:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30252",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30025",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764478,
+     "courseId": 58931,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "19:00",
+       "endTime": "20:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 140,
+     "registeredSeats": 76,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/102/30025",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 64,
+   "sectionSeatCount": 140,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Introduction to Programming",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 58932,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "103",
+   "sequence": null,
+   "suffix": "L",
+   "description": "Basic datatypes, assignments, control statements (if, switch, for, while), input/output (printf, scanf, cin, cout), functions, arrays, structures, recursion, dynamic memory, file handling. Programming in C/C++.",
+   "fullCourseName": "CSCI 103",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "103",
+    "suffix": "",
+    "courseHyphen": "CSCI-103",
+    "courseSpace": "CSCI 103",
+    "courseSmashed": "CSCI103"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "103",
+    "suffix": "",
+    "courseHyphen": "CSCI-103",
+    "courseSpace": "CSCI 103",
+    "courseSmashed": "CSCI103"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "103",
+    "suffix": "",
+    "courseHyphen": "CSCI-103",
+    "courseSpace": "CSCI 103",
+    "courseSmashed": "CSCI103"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "29966",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764370,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "description": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 210,
+     "registeredSeats": 127,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Mark",
+       "lastName": "Redekopp"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/29966",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30107",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764489,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 8,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/30107",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30046",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764427,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 22,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/30046",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30055",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764435,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 17,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/30055",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29904",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764282,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/29904",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30374",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764733,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 9,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/30374",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29903",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764277,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 30,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/29903",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30054",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764434,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 15,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/30054",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29900",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764266,
+     "courseId": 58932,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "M",
+       "days": [
+        "Mon"
+       ],
+       "startTime": "19:00",
+       "endTime": "20:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 210,
+     "registeredSeats": 127,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/103/29900",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "102",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "102",
+       "suffix": "",
+       "courseHyphen": "CSCI-102",
+       "courseSpace": "CSCI 102",
+       "courseSmashed": "CSCI102"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 83,
+   "sectionSeatCount": 210,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Object Oriented Programming",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 60293,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "104",
+   "sequence": null,
+   "suffix": "L",
+   "description": "Data structures including linked lists, balanced search trees, heaps, hash tables; probability and number theory applicable to the analysis of randomized data structures.",
+   "fullCourseName": "CSCI 104",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "104",
+    "suffix": "",
+    "courseHyphen": "CSCI-104",
+    "courseSpace": "CSCI 104",
+    "courseSmashed": "CSCI104"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "104",
+    "suffix": "",
+    "courseHyphen": "CSCI-104",
+    "courseSpace": "CSCI 104",
+    "courseSmashed": "CSCI104"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "104",
+    "suffix": "",
+    "courseHyphen": "CSCI-104",
+    "courseSpace": "CSCI 104",
+    "courseSmashed": "CSCI104"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "29905",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764285,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 230,
+     "registeredSeats": 129,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Carter",
+       "lastName": "Slocum"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/29905",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29914",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764312,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "M",
+       "days": [
+        "Mon"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 30,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/29914",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29912",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764308,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "M",
+       "days": [
+        "Mon"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 31,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/29912",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30294",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764666,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 9,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/30294",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29915",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764314,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/29915",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30286",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764659,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 14,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/30286",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30394",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764751,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/30394",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30379",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764739,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 17,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/30379",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29972",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764379,
+     "courseId": 60293,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "19:00",
+       "endTime": "20:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 230,
+     "registeredSeats": 129,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/104/29972",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "103",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "103",
+       "suffix": "",
+       "courseHyphen": "CSCI-103",
+       "courseSpace": "CSCI 103",
+       "courseSmashed": "CSCI103"
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "170",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "170",
+       "suffix": "",
+       "courseHyphen": "CSCI-170",
+       "courseSpace": "CSCI 170",
+       "courseSmashed": "CSCI170"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 101,
+   "sectionSeatCount": 230,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Data Structures",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 59234,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "113",
+   "sequence": null,
+   "suffix": "x",
+   "description": "Introduction to Python and C++ with examples from various domains in computational science; intended for students without prior programming experience.",
+   "fullCourseName": "CSCI 113",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "113",
+    "suffix": "",
+    "courseHyphen": "CSCI-113",
+    "courseSpace": "CSCI 113",
+    "courseSmashed": "CSCI113"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "113",
+    "suffix": "",
+    "courseHyphen": "CSCI-113",
+    "courseSpace": "CSCI 113",
+    "courseSmashed": "CSCI113"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "113",
+    "suffix": "",
+    "courseHyphen": "CSCI-113",
+    "courseSpace": "CSCI 113",
+    "courseSmashed": "CSCI113"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30006",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764402,
+     "courseId": 59234,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 40,
+     "registeredSeats": 19,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Mark",
+       "lastName": "Redekopp"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/113/30006",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30346",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764704,
+     "courseId": 59234,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 40,
+     "registeredSeats": 17,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Trina",
+       "lastName": "Gregory"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/113/30346",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": [
+    {
+     "groupCode": "CECS",
+     "groupDescription": "Computer Engineering & Computer Science",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    },
+    {
+     "groupCode": "CSBA",
+     "groupDescription": "Computer Science/Business Administration",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    },
+    {
+     "groupCode": "CSCI",
+     "groupDescription": "Computer Science",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    },
+    {
+     "groupCode": "CSGA",
+     "groupDescription": "Computer Science Games",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    }
+   ],
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 44,
+   "sectionSeatCount": 80,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Programming Fundamentals for Computing",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 59240,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "170",
+   "sequence": null,
+   "suffix": null,
+   "description": "Boolean algebra, propositional and first-order logic, proof techniques. Sets, functions, series, summations. Big-O notation; algorithm analysis. Recursion; basic sorting algorithms.  Graphs and basic graph algorithms.",
+   "fullCourseName": "CSCI 170",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "170",
+    "suffix": "",
+    "courseHyphen": "CSCI-170",
+    "courseSpace": "CSCI 170",
+    "courseSmashed": "CSCI170"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "170",
+    "suffix": "",
+    "courseHyphen": "CSCI-170",
+    "courseSpace": "CSCI 170",
+    "courseSmashed": "CSCI170"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "170",
+    "suffix": "",
+    "courseHyphen": "CSCI-170",
+    "courseSpace": "CSCI 170",
+    "courseSmashed": "CSCI170"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30108",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764490,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "description": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "11:00",
+       "endTime": "12:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 140,
+     "registeredSeats": 47,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Mate",
+       "lastName": "Szabo"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30108",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30295",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764667,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "description": "Students must complete CSCI 102, or pass its challenge exam, or have AP Computer Science A credit to enroll in this course.",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "12:30",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 140,
+     "registeredSeats": 55,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Mate",
+       "lastName": "Szabo"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30295",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30349",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764707,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 8,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30349",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30373",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764731,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 23,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30373",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30377",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764736,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 31,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30377",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30116",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764497,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 40,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30116",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30343",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764701,
+     "courseId": 59240,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "19:00",
+       "endTime": "20:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 280,
+     "registeredSeats": 102,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/170/30343",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "102",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "102",
+       "suffix": "",
+       "courseHyphen": "CSCI-102",
+       "courseSpace": "CSCI 102",
+       "courseSmashed": "CSCI102"
+      },
+      {
+       "theRest": "113",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "113",
+       "suffix": "",
+       "courseHyphen": "CSCI-113",
+       "courseSpace": "CSCI 113",
+       "courseSmashed": "CSCI113"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 178,
+   "sectionSeatCount": 280,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Discrete Methods in Computer Science",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 60299,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "201",
+   "sequence": null,
+   "suffix": null,
+   "description": "Object-Oriented Programming in Java; using Java threads, Web Services and SQL to write client/server applications; team project; vibe coding with AI tools.",
+   "fullCourseName": "CSCI 201",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "201",
+    "suffix": "",
+    "courseHyphen": "CSCI-201",
+    "courseSpace": "CSCI 201",
+    "courseSmashed": "CSCI201"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "201",
+    "suffix": "",
+    "courseHyphen": "CSCI-201",
+    "courseSpace": "CSCI 201",
+    "courseSmashed": "CSCI201"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "201",
+    "suffix": "",
+    "courseHyphen": "CSCI-201",
+    "courseSpace": "CSCI 201",
+    "courseSmashed": "CSCI201"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30381",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764743,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "11:00",
+       "endTime": "12:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 180,
+     "registeredSeats": 108,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Marco",
+       "lastName": "Papa"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/30381",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30317",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764688,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "M",
+       "days": [
+        "Mon"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 28,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/30317",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30383",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764745,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "M",
+       "days": [
+        "Mon"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 10,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/30383",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29931",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764337,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 30,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/29931",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29990",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764393,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 10,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/29990",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30380",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764741,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 30,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/30380",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29981",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764380,
+     "courseId": 60299,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": null,
+       "days": [],
+       "startTime": "TBA",
+       "endTime": "TBA",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 180,
+     "registeredSeats": 108,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/201/29981",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "104",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "104",
+       "suffix": "",
+       "courseHyphen": "CSCI-104",
+       "courseSpace": "CSCI 104",
+       "courseSmashed": "CSCI104"
+      },
+      {
+       "theRest": "114",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "114",
+       "suffix": "",
+       "courseHyphen": "CSCI-114",
+       "courseSpace": "CSCI 114",
+       "courseSmashed": "CSCI114"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 72,
+   "sectionSeatCount": 180,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Principles of Software Development",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 59244,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "270",
+   "sequence": null,
+   "suffix": null,
+   "description": "Algorithm analysis. Greedy algorithms, divide and conquer, dynamic programming, graph algorithms. NP-completeness and basic recursion theory and undecidability. Sorting lower bounds. Number-theory based cryptography.",
+   "fullCourseName": "CSCI 270",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": "former CSCI 303",
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "270",
+    "suffix": "",
+    "courseHyphen": "CSCI-270",
+    "courseSpace": "CSCI 270",
+    "courseSmashed": "CSCI270"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "270",
+    "suffix": "",
+    "courseHyphen": "CSCI-270",
+    "courseSpace": "CSCI 270",
+    "courseSmashed": "CSCI270"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "270",
+    "suffix": "",
+    "courseHyphen": "CSCI-270",
+    "courseSpace": "CSCI 270",
+    "courseSmashed": "CSCI270"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30009",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764408,
+     "courseId": 59244,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "15:30",
+       "endTime": "16:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 160,
+     "registeredSeats": 119,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Aaron",
+       "lastName": "Cote"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/270/30009",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30268",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764636,
+     "courseId": 59244,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 80,
+     "registeredSeats": 52,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/270/30268",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30269",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764638,
+     "courseId": 59244,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "15:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 80,
+     "registeredSeats": 67,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/270/30269",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30033",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764484,
+     "courseId": 59244,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "18:00",
+       "endTime": "19:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 160,
+     "registeredSeats": 119,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/270/30033",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "104",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "104",
+       "suffix": "",
+       "courseHyphen": "CSCI-104",
+       "courseSpace": "CSCI 104",
+       "courseSmashed": "CSCI104"
+      },
+      {
+       "theRest": "114",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "114",
+       "suffix": "",
+       "courseHyphen": "CSCI-114",
+       "courseSpace": "CSCI 114",
+       "courseSmashed": "CSCI114"
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "170",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "170",
+       "suffix": "",
+       "courseHyphen": "CSCI-170",
+       "courseSpace": "CSCI 170",
+       "courseSmashed": "CSCI170"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 41,
+   "sectionSeatCount": 160,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Introduction to Algorithms and Theory of Computing",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 60370,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "368",
+   "sequence": null,
+   "suffix": null,
+   "description": "Programming applications with dynamic graphical user interfaces. Topics include events, controls, resources, data bindings, styles and user experience.",
+   "fullCourseName": "CSCI 368",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": "former ITP 368",
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "TAC",
+    "number": "368",
+    "suffix": "",
+    "courseHyphen": "TAC-368",
+    "courseSpace": "TAC 368",
+    "courseSmashed": "TAC368"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "368",
+    "suffix": "",
+    "courseHyphen": "CSCI-368",
+    "courseSpace": "CSCI 368",
+    "courseSmashed": "CSCI368"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "368",
+    "suffix": "",
+    "courseHyphen": "CSCI-368",
+    "courseSpace": "CSCI 368",
+    "courseSmashed": "CSCI368"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "31860",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 765473,
+     "courseId": 60370,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 16,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Barrett",
+       "lastName": "Koster"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/TAC/368/31860",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "265",
+       "ands": [],
+       "prefix": "TAC",
+       "number": "265",
+       "suffix": "",
+       "courseHyphen": "TAC-265",
+       "courseSpace": "TAC 265",
+       "courseSmashed": "TAC265"
+      },
+      {
+       "theRest": "265",
+       "ands": [],
+       "prefix": "ITP",
+       "number": "265",
+       "suffix": "",
+       "courseHyphen": "ITP-265",
+       "courseSpace": "ITP 265",
+       "courseSmashed": "ITP265"
+      },
+      {
+       "theRest": "103",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "103",
+       "suffix": "",
+       "courseHyphen": "CSCI-103",
+       "courseSpace": "CSCI 103",
+       "courseSmashed": "CSCI103"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 14,
+   "sectionSeatCount": 30,
+   "termCode": 20271,
+   "prefix": "TAC",
+   "name": "Cross-Platform App Development with Flutter",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 46397,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "401",
+   "sequence": null,
+   "suffix": null,
+   "description": "Group project with an outside stakeholder to develop real-world    software solutions to large-scale problems. Topics include         software engineering, professional preparation, and recent         computer science research. Duplicates credit in CSCI 477a and CSCI  477b.",
+   "fullCourseName": "CSCI 401",
+   "isCrossListed": false,
+   "maxUnits": "8.0",
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "401",
+    "suffix": "",
+    "courseHyphen": "CSCI-401",
+    "courseSpace": "CSCI 401",
+    "courseSmashed": "CSCI401"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "401",
+    "suffix": "",
+    "courseHyphen": "CSCI-401",
+    "courseSpace": "CSCI 401",
+    "courseSmashed": "CSCI401"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "401",
+    "suffix": "",
+    "courseHyphen": "CSCI-401",
+    "courseSpace": "CSCI 401",
+    "courseSmashed": "CSCI401"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "29963",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764367,
+     "courseId": 46397,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "08:00",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 140,
+     "registeredSeats": 57,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Victor",
+       "lastName": "Adamchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/401/29963",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29969",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764373,
+     "courseId": 46397,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 70,
+     "registeredSeats": 70,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Victor",
+       "lastName": "Adamchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/401/29969",
+     "isCancelled": false,
+     "isFull": true,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 2,
+     "requiredCourses": 2,
+     "courseOptions": [
+      {
+       "theRest": "270",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "270",
+       "suffix": "",
+       "courseHyphen": "CSCI-270",
+       "courseSpace": "CSCI 270",
+       "courseSmashed": "CSCI270"
+      },
+      {
+       "theRest": "310",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "310",
+       "suffix": "",
+       "courseHyphen": "CSCI-310",
+       "courseSpace": "CSCI 310",
+       "courseSmashed": "CSCI310"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 83,
+   "sectionSeatCount": 210,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Capstone: Design and Construction of Large       Software Systems                                ",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 48439,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "420",
+   "sequence": null,
+   "suffix": null,
+   "description": "Computer graphics, OpenGL, 2D and 3D transformations, Bzier splines, computer animation, rendering including ray tracing, shading and lighting, artistic rendering, virtual reality, visualization.",
+   "fullCourseName": "CSCI 420",
+   "isCrossListed": false,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "420",
+    "suffix": "",
+    "courseHyphen": "CSCI-420",
+    "courseSpace": "CSCI 420",
+    "courseSmashed": "CSCI420"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "420",
+    "suffix": "",
+    "courseHyphen": "CSCI-420",
+    "courseSpace": "CSCI 420",
+    "courseSmashed": "CSCI420"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "420",
+    "suffix": "",
+    "courseHyphen": "CSCI-420",
+    "courseSpace": "CSCI 420",
+    "courseSmashed": "CSCI420"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "29979",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764376,
+     "courseId": 48439,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Students must be in year 3 or above of their program to enroll in this course.",
+     "description": "Students must be in year 3 or above of their program to enroll in this course.",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "16:00",
+       "endTime": "17:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 60,
+     "registeredSeats": 39,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Jernej",
+       "lastName": "Barbic"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/420/29979",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30078",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764458,
+     "courseId": 48439,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": null,
+       "days": [],
+       "startTime": "TBA",
+       "endTime": "TBA",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 60,
+     "registeredSeats": 39,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/420/30078",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "104",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "104",
+       "suffix": "",
+       "courseHyphen": "CSCI-104",
+       "courseSpace": "CSCI 104",
+       "courseSmashed": "CSCI104"
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "225",
+       "ands": [],
+       "prefix": "MATH",
+       "number": "225",
+       "suffix": "",
+       "courseHyphen": "MATH-225",
+       "courseSpace": "MATH 225",
+       "courseSmashed": "MATH225"
+      },
+      {
+       "theRest": "141",
+       "ands": [
+        {
+         "theRest": "126",
+         "ands": null,
+         "prefix": "MATH",
+         "number": "126",
+         "suffix": "",
+         "courseHyphen": "MATH-126",
+         "courseSpace": "MATH 126",
+         "courseSmashed": "MATH126"
+        }
+       ],
+       "prefix": "EE",
+       "number": "141",
+       "suffix": "",
+       "courseHyphen": "EE-141",
+       "courseSpace": "EE 141",
+       "courseSmashed": "EE141"
+      },
+      {
+       "theRest": "141",
+       "ands": [
+        {
+         "theRest": "127",
+         "ands": null,
+         "prefix": "MATH",
+         "number": "127",
+         "suffix": "",
+         "courseHyphen": "MATH-127",
+         "courseSpace": "MATH 127",
+         "courseSmashed": "MATH127"
+        }
+       ],
+       "prefix": "EE",
+       "number": "141",
+       "suffix": "",
+       "courseHyphen": "EE-141",
+       "courseSpace": "EE 141",
+       "courseSmashed": "EE141"
+      },
+      {
+       "theRest": "141",
+       "ands": [
+        {
+         "theRest": "129",
+         "ands": null,
+         "prefix": "MATH",
+         "number": "129",
+         "suffix": "",
+         "courseHyphen": "MATH-129",
+         "courseSpace": "MATH 129",
+         "courseSmashed": "MATH129"
+        }
+       ],
+       "prefix": "EE",
+       "number": "141",
+       "suffix": "",
+       "courseHyphen": "EE-141",
+       "courseSpace": "EE 141",
+       "courseSmashed": "EE141"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": [
+    {
+     "groupCode": "U1",
+     "groupDescription": "Freshman",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    },
+    {
+     "groupCode": "U2",
+     "groupDescription": "Sophomore",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    }
+   ],
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 21,
+   "sectionSeatCount": 60,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Computer Graphics",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 59275,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "445",
+   "sequence": null,
+   "suffix": "L",
+   "description": "Designing and programming mobile robots; sensors, effectors, basic control theory, control architectures, planning, some advanced topics, illustrations of state-of-the-art. Weekly robot programming labs; final project.",
+   "fullCourseName": "CSCI 445",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "445",
+    "suffix": "",
+    "courseHyphen": "CSCI-445",
+    "courseSpace": "CSCI 445",
+    "courseSmashed": "CSCI445"
+   },
+   "publishedCourseCode": {
+    "prefix": "EE",
+    "number": "445",
+    "suffix": "",
+    "courseHyphen": "EE-445",
+    "courseSpace": "EE 445",
+    "courseSmashed": "EE445"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "445",
+    "suffix": "",
+    "courseHyphen": "CSCI-445",
+    "courseSpace": "CSCI 445",
+    "courseSmashed": "CSCI445"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30386",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764738,
+     "courseId": 59275,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "08:30",
+       "endTime": "09:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Erdem",
+       "lastName": "Biyik"
+      },
+      {
+       "firstName": "Daniel",
+       "lastName": "Seita"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/445/30386",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29910",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764304,
+     "courseId": 59275,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "T",
+       "days": [
+        "Tue"
+       ],
+       "startTime": "10:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 15,
+     "registeredSeats": 14,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/445/29910",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29911",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764306,
+     "courseId": 59275,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "10:00",
+       "endTime": "12:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 15,
+     "registeredSeats": 12,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/445/29911",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "104",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "104",
+       "suffix": "",
+       "courseHyphen": "CSCI-104",
+       "courseSpace": "CSCI 104",
+       "courseSmashed": "CSCI104"
+      },
+      {
+       "theRest": "114",
+       "ands": [],
+       "prefix": "CSCI",
+       "number": "114",
+       "suffix": "",
+       "courseHyphen": "CSCI-114",
+       "courseSpace": "CSCI 114",
+       "courseSmashed": "CSCI114"
+      },
+      {
+       "theRest": "355",
+       "ands": [],
+       "prefix": "EE",
+       "number": "355",
+       "suffix": "",
+       "courseHyphen": "EE-355",
+       "courseSpace": "EE 355",
+       "courseSmashed": "EE355"
+      }
+     ]
+    }
+   ],
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": [
+    {
+     "groupCode": "U3",
+     "groupDescription": "Junior",
+     "restrictionCode": "I",
+     "restriction": "Inclusive"
+    },
+    {
+     "groupCode": "U4",
+     "groupDescription": "Senior",
+     "restrictionCode": "I",
+     "restriction": "Inclusive"
+    }
+   ],
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 4,
+   "sectionSeatCount": 30,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Foundations of Robotics",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 60382,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "450",
+   "sequence": null,
+   "suffix": null,
+   "description": "Network architectures; layered protocols, network service interface; local, wide area, wireless networks; Internet protocols; link protocols; addressing; routing; flow control; software defined network; multimedia networks.",
+   "fullCourseName": "CSCI 450",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": "CSCI 353",
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "EE",
+    "number": "450",
+    "suffix": "",
+    "courseHyphen": "EE-450",
+    "courseSpace": "EE 450",
+    "courseSmashed": "EE450"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "450",
+    "suffix": "",
+    "courseHyphen": "CSCI-450",
+    "courseSpace": "CSCI 450",
+    "courseSmashed": "CSCI450"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "450",
+    "suffix": "",
+    "courseHyphen": "CSCI-450",
+    "courseSpace": "CSCI 450",
+    "courseSmashed": "CSCI450"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30828",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764884,
+     "courseId": 60382,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 82,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Leana",
+       "lastName": "Golubchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/30828",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30829",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764886,
+     "courseId": 60382,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "14:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 82,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/30829",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "31189",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38124,
+     "peSectionId": 764983,
+     "courseId": 60382,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": null,
+       "days": [],
+       "startTime": "TBA",
+       "endTime": "TBA",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 82,
+     "registeredSeats": 26,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/31189",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30568",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38146,
+     "peSectionId": 764964,
+     "courseId": 60382,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": "Register for lec & dis",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 15,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "014",
+      "description": null,
+      "rnrSessionId": 38146
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Leana",
+       "lastName": "Golubchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/30568",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30570",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38146,
+     "peSectionId": 764972,
+     "courseId": 60382,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "14:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 15,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "014",
+      "description": null,
+      "rnrSessionId": 38146
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/30570",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "31190",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38146,
+     "peSectionId": 764987,
+     "courseId": 60382,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "19:00",
+       "endTime": "20:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 15,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "014",
+      "description": null,
+      "rnrSessionId": 38146
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/450/31190",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": [
+    {
+     "groupCode": "U1",
+     "groupDescription": "Freshman",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    },
+    {
+     "groupCode": "U2",
+     "groupDescription": "Sophomore",
+     "restrictionCode": "E",
+     "restriction": "Exclusive"
+    }
+   ],
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 69,
+   "sectionSeatCount": 97,
+   "termCode": 20271,
+   "prefix": "EE",
+   "name": "Foundations of Computer Networks",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 39449,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "455",
+   "sequence": null,
+   "suffix": "x",
+   "description": " Intensive introduction to programming principles, discrete mathematics for computing, software design and software engineering concepts. Not available for credit to computer sciencemajors, graduate or undergraduate. ",
+   "fullCourseName": "CSCI 455",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "455",
+    "suffix": "",
+    "courseHyphen": "CSCI-455",
+    "courseSpace": "CSCI 455",
+    "courseSmashed": "CSCI455"
+   },
+   "publishedCourseCode": {
+    "prefix": "EE",
+    "number": "455",
+    "suffix": "",
+    "courseHyphen": "EE-455",
+    "courseSpace": "EE 455",
+    "courseSmashed": "EE455"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "455",
+    "suffix": "",
+    "courseHyphen": "CSCI-455",
+    "courseSpace": "CSCI 455",
+    "courseSmashed": "CSCI455"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30327",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764730,
+     "courseId": 39449,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": "Register for lecture & one lab.",
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 60,
+     "registeredSeats": 3,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "William",
+       "lastName": "Cheng"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/455/30327",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30029",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764480,
+     "courseId": 39449,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "13:00",
+       "endTime": "14:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 2,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/455/30029",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30329",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38124,
+     "peSectionId": 764693,
+     "courseId": 39449,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "15:00",
+       "endTime": "16:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 1,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "001",
+      "description": null,
+      "rnrSessionId": 38124
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/455/30329",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29934",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38146,
+     "peSectionId": 764340,
+     "courseId": 39449,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "TH",
+       "days": [
+        "Tue",
+        "Thu"
+       ],
+       "startTime": "10:00",
+       "endTime": "11:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 0,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "014",
+      "description": null,
+      "rnrSessionId": 38146
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "William",
+       "lastName": "Cheng"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/455/29934",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30023",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38146,
+     "peSectionId": 764417,
+     "courseId": 39449,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "H",
+       "days": [
+        "Thu"
+       ],
+       "startTime": "13:00",
+       "endTime": "14:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 0,
+     "waitlistedSeats": null,
+     "rnrMode": "Lab",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "014",
+      "description": null,
+      "rnrSessionId": 38146
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/455/30023",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "L",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 77,
+   "sectionSeatCount": 80,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Introduction to Programming Systems Design",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 52953,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "559",
+   "sequence": null,
+   "suffix": null,
+   "description": "Distribution-free and probabilistic methods for supervised classification and regression; learning algorithms; optimization techniques; feature-space transformations; parametric and nonparametric methods; Bayes decision theory; artificial neural networks.",
+   "fullCourseName": "CSCI 559",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": "knowledge of Python at the level of EE 541 (A Computational Introduction to Deep Learning); knowledge of multivariate calculus.",
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "EE",
+    "number": "559",
+    "suffix": "",
+    "courseHyphen": "EE-559",
+    "courseSpace": "EE 559",
+    "courseSmashed": "EE559"
+   },
+   "publishedCourseCode": {
+    "prefix": "CSCI",
+    "number": "559",
+    "suffix": "",
+    "courseHyphen": "CSCI-559",
+    "courseSpace": "CSCI 559",
+    "courseSmashed": "CSCI559"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "559",
+    "suffix": "",
+    "courseHyphen": "CSCI-559",
+    "courseSpace": "CSCI 559",
+    "courseSmashed": "CSCI559"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30490",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38145,
+     "peSectionId": 764798,
+     "courseId": 52953,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 85,
+     "registeredSeats": 23,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Anand",
+       "lastName": "Joshi"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/559/30490",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30565",
+     "linkCode": null,
+     "linkCodeForSort": null,
+     "rnrSessionId": 38145,
+     "peSectionId": 764957,
+     "courseId": 52953,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 85,
+     "registeredSeats": 23,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/559/30565",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30561",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764951,
+     "courseId": 52953,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "MW",
+       "days": [
+        "Mon",
+        "Wed"
+       ],
+       "startTime": "12:00",
+       "endTime": "13:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 1,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Anand",
+       "lastName": "Joshi"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/559/30561",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30489",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764797,
+     "courseId": 52953,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "11:00",
+       "endTime": "11:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 20,
+     "registeredSeats": 1,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/EE/559/30489",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": [
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "503",
+       "ands": [],
+       "prefix": "EE",
+       "number": "503",
+       "suffix": "",
+       "courseHyphen": "EE-503",
+       "courseSpace": "EE 503",
+       "courseSmashed": "EE503"
+      }
+     ]
+    },
+    {
+     "order": 1,
+     "requiredCourses": 1,
+     "courseOptions": [
+      {
+       "theRest": "510",
+       "ands": [],
+       "prefix": "EE",
+       "number": "510",
+       "suffix": "",
+       "courseHyphen": "EE-510",
+       "courseSpace": "EE 510",
+       "courseSmashed": "EE510"
+      }
+     ]
+    }
+   ],
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 81,
+   "sectionSeatCount": 105,
+   "termCode": 20271,
+   "prefix": "EE",
+   "name": "Machine Learning I: Supervised Methods",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 10944,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "567",
+   "sequence": null,
+   "suffix": null,
+   "description": "Statistical methods for building intelligent and adaptive systems that improve performance from experiences; Focus on theoretical understanding of these methods and their computational implications. Recommended preparation: Undergraduate level training or coursework in linear algebra, multivariate calculus, basic probability and statistics; an undergraduate level course in Artificial Intelligence may be helpful but is not required. ",
+   "fullCourseName": "CSCI 567",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "567",
+    "suffix": "",
+    "courseHyphen": "CSCI-567",
+    "courseSpace": "CSCI 567",
+    "courseSmashed": "CSCI567"
+   },
+   "publishedCourseCode": {
+    "prefix": "ISE",
+    "number": "568",
+    "suffix": "",
+    "courseHyphen": "ISE-568",
+    "courseSpace": "ISE 568",
+    "courseSmashed": "ISE568"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "567",
+    "suffix": "",
+    "courseHyphen": "CSCI-567",
+    "courseSpace": "CSCI 567",
+    "courseSmashed": "CSCI567"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30079",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38145,
+     "peSectionId": 764459,
+     "courseId": 10944,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "16:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 160,
+     "registeredSeats": 58,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Victor",
+       "lastName": "Adamchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30079",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30081",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38145,
+     "peSectionId": 764457,
+     "courseId": 10944,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "16:30",
+       "endTime": "17:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 160,
+     "registeredSeats": 58,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30081",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30265",
+     "linkCode": "A",
+     "linkCodeForSort": "A",
+     "rnrSessionId": 38145,
+     "peSectionId": 764630,
+     "courseId": 10944,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": null,
+       "days": [],
+       "startTime": "TBA",
+       "endTime": "TBA",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 160,
+     "registeredSeats": 58,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30265",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30213",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764624,
+     "courseId": 10944,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "16:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Victor",
+       "lastName": "Adamchik"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30213",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30264",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764628,
+     "courseId": 10944,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "16:30",
+       "endTime": "17:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30264",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30266",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764632,
+     "courseId": 10944,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": null,
+       "days": [],
+       "startTime": "TBA",
+       "endTime": "TBA",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/567/30266",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 121,
+   "sectionSeatCount": 190,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Machine Learning",
+   "sortOrder": 0
+  },
+  {
+   "courseId": 10945,
+   "startTermCode": 0,
+   "endTermCode": null,
+   "classNumber": "570",
+   "sequence": null,
+   "suffix": null,
+   "description": "Explores fundamental techniques such as recursion, Fourier transform ordering, dynamic programming for efficient algorithm construction. Examples include arithmetic, algebraic, graph, pattern matching, sorting, searching algorithms.",
+   "fullCourseName": "CSCI 570",
+   "isCrossListed": true,
+   "maxUnits": null,
+   "courseNotes": null,
+   "termNotes": null,
+   "duplicateCredit": null,
+   "recommendedPrep": null,
+   "geCode": null,
+   "scheduledCourseCode": {
+    "prefix": "CSCI",
+    "number": "570",
+    "suffix": "",
+    "courseHyphen": "CSCI-570",
+    "courseSpace": "CSCI 570",
+    "courseSmashed": "CSCI570"
+   },
+   "publishedCourseCode": {
+    "prefix": "ISE",
+    "number": "560",
+    "suffix": "",
+    "courseHyphen": "ISE-560",
+    "courseSpace": "ISE 560",
+    "courseSmashed": "ISE560"
+   },
+   "matchedCourseCode": {
+    "prefix": "CSCI",
+    "number": "570",
+    "suffix": "",
+    "courseHyphen": "CSCI-570",
+    "courseSpace": "CSCI 570",
+    "courseSmashed": "CSCI570"
+   },
+   "courseUnits": [
+    4
+   ],
+   "sections": [
+    {
+     "sisSectionId": "30395",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38145,
+     "peSectionId": 764752,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Lecture 30395 must be taken with discussion 30089 and quiz 30227.",
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "17:00",
+       "endTime": "19:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 230,
+     "registeredSeats": 107,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Shahriar",
+       "lastName": "Shamsian"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30395",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30089",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38145,
+     "peSectionId": 764467,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "W",
+       "days": [
+        "Wed"
+       ],
+       "startTime": "19:30",
+       "endTime": "20:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 230,
+     "registeredSeats": 107,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30089",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30227",
+     "linkCode": "B",
+     "linkCodeForSort": "B",
+     "rnrSessionId": 38145,
+     "peSectionId": 764525,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "18:00",
+       "endTime": "19:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 230,
+     "registeredSeats": 107,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30227",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30198",
+     "linkCode": "C",
+     "linkCodeForSort": "C",
+     "rnrSessionId": 38145,
+     "peSectionId": 764584,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": "Lecture 30198 must be taken with discussion 30290 and quiz 30291.",
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "16:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 270,
+     "registeredSeats": 43,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Shahriar",
+       "lastName": "Shamsian"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30198",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30290",
+     "linkCode": "C",
+     "linkCodeForSort": "C",
+     "rnrSessionId": 38145,
+     "peSectionId": 764663,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "16:30",
+       "endTime": "17:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 270,
+     "registeredSeats": 43,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30290",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30291",
+     "linkCode": "C",
+     "linkCodeForSort": "C",
+     "rnrSessionId": 38145,
+     "peSectionId": 764664,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "18:00",
+       "endTime": "19:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 270,
+     "registeredSeats": 43,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "048",
+      "description": null,
+      "rnrSessionId": 38145
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30291",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "30099",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764475,
+     "courseId": 10945,
+     "hasDClearance": true,
+     "classType": null,
+     "name": null,
+     "notes": "Lecture 30099 must be taken with discussion 29952 and quiz 29953.",
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "14:00",
+       "endTime": "16:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Lecture",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "4.0"
+     ],
+     "instructors": [
+      {
+       "firstName": "Shahriar",
+       "lastName": "Shamsian"
+      }
+     ],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/30099",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "C",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29952",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764364,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "16:30",
+       "endTime": "17:20",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Discussion",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/29952",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "D",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    },
+    {
+     "sisSectionId": "29953",
+     "linkCode": "D",
+     "linkCodeForSort": "D",
+     "rnrSessionId": 38144,
+     "peSectionId": 764366,
+     "courseId": 10945,
+     "hasDClearance": false,
+     "classType": null,
+     "name": null,
+     "notes": null,
+     "description": null,
+     "group": null,
+     "schedule": [
+      {
+       "dayCode": "F",
+       "days": [
+        "Fri"
+       ],
+       "startTime": "18:00",
+       "endTime": "19:50",
+       "sectionLocationSqNumber": 1
+      }
+     ],
+     "totalSeats": 30,
+     "registeredSeats": 11,
+     "waitlistedSeats": null,
+     "rnrMode": "Quiz",
+     "session": {
+      "termCode": "20271",
+      "rnrSessionCode": "034",
+      "description": null,
+      "rnrSessionId": 38144
+     },
+     "units": [
+      "0.0"
+     ],
+     "instructors": [],
+     "syllabus": "https://usc.simplesyllabus.com/en-US/syllabus/Spring 2027/CSCI/570/29953",
+     "isCancelled": false,
+     "isFull": false,
+     "rnrModeCode": "Q",
+     "term": {
+      "value": 20271,
+      "year": 2027,
+      "term": 1,
+      "season": "Spring"
+     },
+     "termCode": 20271,
+     "season": "Spring",
+     "year": 2027
+    }
+   ],
+   "prerequisiteCourseCodes": null,
+   "corequisiteCourseCodes": null,
+   "courseRestrictions": null,
+   "majorRestrictions": null,
+   "schoolRestrictions": null,
+   "concurrentCourses": null,
+   "remainingSectionSeats": 369,
+   "sectionSeatCount": 530,
+   "termCode": 20271,
+   "prefix": "CSCI",
+   "name": "Analysis of Algorithms",
+   "sortOrder": 0
+  }
+ ]
+}

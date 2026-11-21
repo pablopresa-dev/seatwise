@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <title>Seatwise</title>
+  <rect width="64" height="64" rx="14" fill="#D6006F"/>
+  <path d="M12 10h9l4 22h27v10H16z M16 42h8v12h-8z M42 42h8v12h-8z" fill="#FFFFFF"/>
+  <circle cx="41" cy="20" r="7" fill="#FFC21A"/>
+</svg>

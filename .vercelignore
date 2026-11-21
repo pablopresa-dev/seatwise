@@ -1,0 +1,6 @@
+.claude
+.env*
+node_modules
+dist
+.astro
+apps/web/.impeccable
